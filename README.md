@@ -1,6 +1,4 @@
 # Love Pilates
-A website to attract clients to the online classes at a Pilates studio. During pandemic times it is not possible to have workout in the studio so the studio started to offer online classes. 
-
 -----------------
 ## Contents ##
 ---
@@ -35,6 +33,10 @@ A website to attract clients to the online classes at a Pilates studio. During p
 
 ## UX
 ### Project Goals 
+A website to attract clients to the online classes at a Pilates studio. 
+During pandemic the studio cannot have classes in the studio so they started to offer online classes.
+The goal is to keep regular customers active and lojal to the studio but also to find new clients.
+New client will hopefully become regular clients and in the future also use the studio. And perhaps online classes will be something that continues even after the pandemic.
 ### Target Audience goals:  
 The site users are the studios regular clients but also potential clients. The clients wants to know which classes are offered, when they are offered, what is needed to join an online class. 
 A potential client wants to know about pilates, how professional the studio is and if it is a studio that fits this client.
@@ -44,7 +46,7 @@ The studio is interested in attracting and retaining members during unusual time
 
 ### Potential features to include: 
 - photos and citates from people who experience how good pilates whit emphasis on workout at home
-- provide detail on the classes, their schedule and link to actual online class
+- provide detail on the classes, what you need to take part, their schedule and link to actual online class
 - provide information on the instructur of the centre to show the competence and seriousness.
 - Provide information about Pilates and what it is good for.
 - Provide information on contact details and external resources.
@@ -62,33 +64,44 @@ The studio is interested in attracting and retaining members during unusual time
 1. Photos and citates - important for attracting potential clients
 1. Sign up for membership including information-letter - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again.
 2. Link to the digital class - important for regular clients and probably what they use the site to most of the time 
-2. The classes schedule and - important for regular clients and probably what they use the site to most of the time 
-2. What classes are offered - important for potential clients and for regular clients who for example wants to test another type of class
-3. What is Pilates - information for potential clients
-3. Contact information and information about the studio - to ask questions but also to find the studio when everything is back to normal
-4. Information about the instructors - to show that this is a professional studio
+3. The classes schedule - important for regular clients and probably what they use the site to most of the time 
+4. What classes are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
+5. What is Pilates - information for potential clients
+5. Information about the instructors - to show that this is a professional studio
+6. Contact information - to ask questions 
+7. Information about the studio - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
 
 ### How the features were grouped
 - Headder: Title and navigation
 - Home: Photos and citates and short what Pilates is. Problably a button for signing up and another to link for classes
 - Sign Up: Sign up for membership
-- Classes: Which classes are offered, when they are offered and link to digital class
+- Classes: Which classes are offered, when they are offered, link to digital class and information about what you need to take part (e.g space, mat, rubber band)
 - About: About the studio and about the instructors
 - Footer: contact information and external links
 
----------------------
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
------------------------------
 ## User requirements and Expectations
+### Requirements
+* Navigate the website using navbar
+* Be provided with information on the studio
+* Content with visual appealing manor
+* Having a contact form
+
+### Expectations
+* Content is visually satisfying and informative
+* Navigation take user to specific Pages
+* Visual appealing data from external sources
 ## Wireframes
+I used Balsamiq Wireframes to build rudimentary wireframes for a basic understanding.
+I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
+The wireframes a saved in this workspace under assets/wireframes/wireframes.pdf. 
+
 ## Design Choices
+The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
+The feeling is sensible, calm but also a little tough. Calm pastelle colours with some strong colours.
 ### Fonts
+I have choosen **Open Sans** that I think is a clear, friendly, easy to read font.
 ### Icons
+**Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are self explanatory.
 ### Colours
 ### Styling
 ### Images
