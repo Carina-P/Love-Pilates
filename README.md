@@ -1,29 +1,62 @@
 # Love Pilates
-A website to attract clients to the digital classes at a pilates studio
----------------
-Essentially, this part is your sales pitch.
+A website to attract clients to the online classes at a Pilates studio. During pandemic times it is not possible to have workout in the studio so the studio started to offer online classes. 
+
 -----------------
+## Contents ##
+---
+* UX (User exeperience)
+    * Project Goals
+    * Target Audience Goals
+    * Site Owner Goals
+    * Potential features to include
+    * User Stories
+    * How potential features are prioritized
+    * How potential features are grouped
+    * User Requirements and Expectations
+    * Wireframes
+    * Design Choices
+        * Fonts
+        * Icons
+        * Colours
+        * Styling
+        * Images
+        * Backgrounds
+* Technologies used
+* Features
+    * Existing features
+    * Features left to implement
+* Testing
+* Bugs
+* Deployment
+* Credit
+    * Content
+    * Media
+    * Acknowledgements
+
 ## UX
- 
-### External user's goal:  The site users are the studios regular clients and potential clients, who want to know more about what the studio, its procedures and what it has to offer during pandemic times.
+### Project Goals 
+### Target Audience goals:  
+The site users are the studios regular clients but also potential clients. The clients wants to know which classes are offered, when they are offered, what is needed to join an online class. 
+A potential client wants to know about pilates, how professional the studio is and if it is a studio that fits this client.
 
-### Site owner's goal: The studio is interested in attracting and retaining members during unusual times.
+### Site owner's goal: 
+The studio is interested in attracting and retaining members during unusual times.
 
-### Features:
-- Showcase photo of people exercising in the studio to motivate people to join and to show what it looks like. 
-- photos and citates from people who experience how good pilates is
-- provide detail on the classes in the gym and their schedule
+### Potential features to include: 
+- photos and citates from people who experience how good pilates whit emphasis on workout at home
+- provide detail on the classes, their schedule and link to actual online class
 - provide information on the instructur of the centre to show the competence and seriousness.
 - Provide information about Pilates and what it is good for.
-- Provide information on the studios location, opening hours, contact details and external resources.
-- Sign up to the weekly letter with information about pilates, tips and on upcoming events
+- Provide information on contact details and external resources.
+- Sign up to be a member and give the studio contact information as mail. And also chose if you want weekly mail with information about pilates, tips and on upcoming events
+- Showcase photo of people exercising in the studio. This is to remind people that there also is a studio to go to if they want to.
 
 ### User Stories:
 - As a potential client I want to get a "feeling for the studio", what it offers, the atmosphere and how professionel they are. I want to see pictures and photos and I want to know more about the instructors.
 - As a regular client I want to see at what time different classes are.
 - As a potential and regular client I want to know what the different class do and find the right class for me.
 - As a regular and potential client I want to find contact information to the studio so I can ask my questions.
-- As a regular and potential client I want to sign up for information-letter
+- As a regular and potential client I want to sign up for membership or get more information
 
 ### How the features is prioritized: 
 1. Photos and citates - important for attracting potential clients
@@ -51,6 +84,15 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 -----------------------------
+## User requirements and Expectations
+## Wireframes
+## Design Choices
+### Fonts
+### Icons
+### Colours
+### Styling
+### Images
+### Backgrounds
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -94,6 +136,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+## Bugs
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
