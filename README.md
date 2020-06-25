@@ -93,16 +93,23 @@ The studio is interested in attracting and retaining members during unusual time
 ## Wireframes
 I used Balsamiq Wireframes to build rudimentary wireframes for a basic understanding.
 I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
-The wireframes a saved in this workspace under assets/wireframes/wireframes.pdf. 
+The wireframes a saved in this workspacee under assets/wireframes/wireframes.pdf. 
 
 ## Design Choices
 The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
-The feeling is sensible, calm but also a little tough. Calm pastelle colours with some strong colours.
+The feeling is sensible, calm but also a little tough. Calm pastelle colours with some strong colours that make a positive feeling and attract to interaction.
+I want the site to feel modern and the hero-image is a picture not a photo.
 ### Fonts
 I have choosen **Open Sans** that I think is a clear, friendly, easy to read font.
 ### Icons
 **Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are self explanatory.
 ### Colours
+* For body text: Silver Sand #B1C0C5, Rich Black Fogra 39 #080708 and white #ffffff
+* For body background: white #ffffff
+* For background header and footer: Wheat EAD1A2
+* For additional background and borders: Rose Madder DF2935
+
+
 ### Styling
 ### Images
 ### Backgrounds
@@ -122,8 +129,19 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
+###Languages
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) The perfect language to build a static site.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) For styling the site
+###Tools and libraries
+* [Git](https://git-scm.com/)
+* Bootstrap
+* Font-Awesome
+* Google Fonts
+* Balsamiq Wireframes
+* Coolors
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site
+ and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
