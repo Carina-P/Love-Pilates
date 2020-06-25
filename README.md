@@ -1,4 +1,5 @@
 # Love Pilates
+![Hero-image](/assets/images/hero-image.png)
 -----------------
 ## Contents ##
 ---
@@ -97,17 +98,24 @@ The wireframes a saved in this workspacee under assets/wireframes/wireframes.pdf
 
 ## Design Choices
 The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
-The feeling is sensible, calm but also a little tough. Calm pastelle colours with some strong colours that make a positive feeling and attract to interaction.
-I want the site to feel modern and the hero-image is a picture not a photo.
+The feeling is sensible, calm but also stubborn and strong. The site should be appealing to both men and women and also inspiring to work out at home.
+I want the site to feel modern and the hero-image to be a drawn picture and not a photo. The picture I found inspired the colors I choose.
+I think grey is a cool, sophisticated and neutral color. I want to use that and add some colors to draw attention and make
+the picture less "stiff".
+
 ### Fonts
 I have choosen **Open Sans** that I think is a clear, friendly, easy to read font.
 ### Icons
 **Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are self explanatory.
+
 ### Colours
-* For body text: Silver Sand #B1C0C5, Rich Black Fogra 39 #080708 and white #ffffff
-* For body background: white #ffffff
-* For background header and footer: Wheat EAD1A2
-* For additional background and borders: Rose Madder DF2935
+* For body text and some titels: Charchool #373F51
+* Some headers and titels: Raisin black #262730
+* For body background: White #FFFFFF
+* For header and footer background: Cultured #EFF1F0
+* For some padding and buttons-background to accenture: Sunray #E7B76F
+* For buttons and backgrounds that I want to stand out: Rose Madder #DF2935. Font on this background is White #FFFFFF for better contrast.
+![Color palette](/assets/images/colors-pilates.png)
 
 
 ### Styling
