@@ -16,10 +16,7 @@
     * Design Choices
         * Fonts
         * Icons
-        * Colours
-        * Styling
-        * Images
-        * Backgrounds
+        * Colors
 * Technologies used
 * Features
     * Existing features
@@ -99,8 +96,8 @@ The wireframes a saved in this workspacee under assets/wireframes/wireframes.pdf
 ## Design Choices
 The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
 The feeling is sensible, calm but also stubborn and strong. The site should be appealing to both men and women and also inspiring to work out at home.
-I want the site to feel modern and the hero-image to be a drawn picture and not a photo. The picture I found inspired the colors I choose.
-I think grey is a cool, sophisticated and neutral color. I want to use that and add some colors to draw attention and make
+I have choosen the hero-image to be a drawn picture and not a photo. The picture I found inspired the colors I choose.
+I think grey is a cool, sophisticated and neutral color. I want to use that and add some colors to make the site more positive and draw attention to it.
 the picture less "stiff".
 
 ### Fonts
@@ -117,17 +114,15 @@ I have choosen **Open Sans** that I think is a clear, friendly, easy to read fon
 * For buttons and backgrounds that I want to stand out: Rose Madder #DF2935. Font on this background is White #FFFFFF for better contrast.
 ![Color palette](/assets/images/colors-pilates.png)
 
-
-### Styling
-### Images
-### Backgrounds
 ## Features
-
+<!--->
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+<!--> 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Header: Including logo and navbar
+- Home: This is to inspire users with a hero-image and photos and quotes and a few words about what Pilates is.
+    - Implemented in index.html
+- Sign Up: 
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -137,17 +132,26 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
-###Languages
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) The perfect language to build a static site.
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) For styling the site
-###Tools and libraries
-* [Git](https://git-scm.com/)
-* Bootstrap
-* Font-Awesome
-* Google Fonts
-* Balsamiq Wireframes
-* Coolors
+### Languages
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) 
+    * The perfect language to build a static site.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+    * For styling the site
 
+### Tools and libraries
+* [Git](https://git-scm.com/)
+    * For version control and storing the code
+* [Bootstrap](https://getbootstrap.com/)
+    * A helpful HTML, CSS (and JS) library
+* [Font-Awesome](https://fontawesome.com/icons?d=gallery)
+    * From this library I picked the icons
+* [Google fonts](https://fonts.google.com/)Bootstrap
+    * For inspiration and fonts
+* [Balsamiq Wireframes](https://balsamiq.com/)
+    * For designing the wireframes
+* [Coolors](https://balsamiq.com/)
+    * To generate color-schemes
+<!-----
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site
  and a short sentence of why it was used.
 
@@ -187,15 +191,20 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-
+<!------>
 ## Credits
 
 ### Content
+<!---
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+<!---->
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from:
+    - [shutterstock](https://www.shutterstock.com/sv/home)
+    - [pixabay](https://pixabay.com/sv/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from:
+    - [Pilates Via](https://pilatesvia.com/se/pilates-i-stockholm/)
+    - [Pilates Center](https://www.pilates-center.se/)
