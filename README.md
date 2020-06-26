@@ -43,7 +43,7 @@ A potential client wants to know about pilates, how professional the studio is a
 The studio is interested in attracting and retaining members during unusual times.
 
 ### Potential features to include: 
-- photos and citates from people who experience how good pilates whit emphasis on workout at home
+- photos and quotes from people who experience how good pilates whit emphasis on workout at home
 - provide detail on the classes, what you need to take part, their schedule and link to actual online class
 - provide information on the instructur of the centre to show the competence and seriousness.
 - Provide information about Pilates and what it is good for.
@@ -93,17 +93,17 @@ The studio is interested in attracting and retaining members during unusual time
 ## Wireframes
 I used Balsamiq Wireframes to build rudimentary wireframes for a basic understanding.
 I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
-The wireframes a saved in this workspacee under assets/wireframes/wireframes.pdf. 
+The wireframes are saved in this workspacee under assets/wireframes/wireframes.pdf. 
 
 ## Design Choices
 The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
-The feeling is sensible, calm but also stubborn and strong. The site should be appealing to both men and women and also inspiring to work out at home.
+The feeling is sensible, calm but also stubborn and strong. The site should be appealing to men, women, old and young as well as inspire to work out at home.
 I have choosen the hero-image to be a drawn picture and not a photo. The picture I found inspired the colors I choose.
-I think grey is a cool, sophisticated and neutral color. I want to use that and add some colors to make the site more positive and draw attention to it.
-the picture less "stiff".
+I think grey is a cool and neutral color. I want to use that and add some colors to make the site more positive and draw attention to it.
 
 ### Fonts
-I have choosen **Open Sans** that I think is a clear, friendly, easy to read font.
+I have choosen **Open Sans** that I think is a modern, friendly, easy to read font.
+
 ### Icons
 **Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are self explanatory.
 
@@ -121,7 +121,7 @@ I have choosen **Open Sans** that I think is a clear, friendly, easy to read fon
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 <!--> 
 ### Existing Features
-- Header: Including logo and navbar. Sticking to the top of viewport.
+- Header: Including logo and navbar. Sticking to the top of viewport. 
 - Home: This is to inspire users with a hero-image and photos and quotes and a few words about what Pilates is.
     - Implemented in index.html
 - Sign Up: In this page the user can sign up for membership and choose to recieve a regular information mail.
@@ -154,7 +154,7 @@ In addition, you may also use this section to discuss plans for additional featu
     * A helpful HTML, CSS (and JS) library
 * [Font-Awesome](https://fontawesome.com/icons?d=gallery)
     * From this library I picked the icons
-* [Google fonts](https://fonts.google.com/)Bootstrap
+* [Google fonts](https://fonts.google.com/)
     * For inspiration and fonts
 * [Balsamiq Wireframes](https://balsamiq.com/)
     * For designing the wireframes
