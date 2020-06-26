@@ -1,33 +1,40 @@
 # Love Pilates
-![Hero-image](/assets/images/hero-image.png)
------------------
+<!---![Hero-image](/assets/images/hero-image.png){:height=500px :width=500px} <!--->
+<img src="/assets/images/hero-image.png" width =30%>
+
 ## Contents ##
 ---
-* UX (User exeperience)
-    * Project Goals
-    * Target Audience Goals
-    * Site Owner Goals
-    * Potential features to include
-    * User Stories
-    * How potential features are prioritized
-    * How potential features are grouped
-    * User Requirements and Expectations
-    * Wireframes
-    * Design Choices
-        * Fonts
-        * Icons
-        * Colors
-* Technologies used
-* Features
-    * Existing features
-    * Features left to implement
-* Testing
-* Bugs
-* Deployment
-* Credit
-    * Content
-    * Media
-    * Acknowledgements
+- [UX](#ux)
+  * [Project Goals](#project-goals)
+  * [Target Audience goals:](#target-audience-goals-)
+  * [Site owner's goal:](#site-owner-s-goal-)
+  * [Potential features to include:](#potential-features-to-include-)
+  * [User Stories:](#user-stories-)
+  * [How the features is prioritized:](#how-the-features-is-prioritized-)
+  * [How the features were grouped](#how-the-features-were-grouped)
+- [User requirements and Expectations](#user-requirements-and-expectations)
+  * [Requirements](#requirements)
+  * [Expectations](#expectations)
+- [Wireframes](#wireframes)
+- [Design Choices](#design-choices)
+  * [Fonts](#fonts)
+  * [Icons](#icons)
+  * [Colours](#colours)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Tools and libraries](#tools-and-libraries)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## UX
 ### Project Goals 
@@ -114,7 +121,8 @@ I have choosen **Open Sans** that I think is a modern, friendly, easy to read fo
 * For header and footer background: Cultured #EFF1F0
 * For some padding and buttons-background to accenture: Sunray #E7B76F
 * For buttons and backgrounds that I want to stand out: Rose Madder #DF2935. Font on this background is White #FFFFFF for better contrast.
-![Color palette](/assets/images/colors-pilates.png)
+<!--![Color palette](/assets/images/colors-pilates.png)--->
+<img src="//assets/images/colors-pilates.png" width="25%">
 
 ## Features
 <!--->
