@@ -2,6 +2,9 @@
 <!---![Hero-image](/assets/images/hero-image.png){:height=500px :width=500px} <!--->
 <img src="/assets/images/hero-image.png" width =30%>
 
+### The absolutely best Pilates studio is now offering online-courses. 
+### You can do workout from home guided by our skillful instructors. 
+
 ## Contents ##
 ---
 - [UX](#ux)
@@ -59,11 +62,12 @@ The studio is interested in attracting and retaining members during unusual time
 - Showcase photo of people exercising in the studio. This is to remind people that there also is a studio to go to if they want to.
 
 ### User Stories:
-- As a potential client I want to get a "feeling for the studio", what it offers, the atmosphere and how professionel they are. I want to see pictures and photos and I want to know more about the instructors.
-- As a regular client I want to see at what time different classes are.
-- As a potential and regular client I want to know what the different class do and find the right class for me.
-- As a regular and potential client I want to find contact information to the studio so I can ask my questions.
-- As a regular and potential client I want to sign up for membership or get more information
+Regular Clients:
+- As a user I want to get a "feeling for the studio", what it offers, the atmosphere and how professionel they are. I want to see pictures and photos and I want to know more about the instructors.
+- As a user I want to see at what time different classes are.
+- As a user I want to know what the different class do and find the right class for me.
+- As a user I want to find contact information to the studio so I can ask my questions.
+- As a user I want to sign up for membership or get more information
 
 ### How the features is prioritized: 
 1. Photos and citates - important for attracting potential clients
@@ -77,12 +81,12 @@ The studio is interested in attracting and retaining members during unusual time
 7. Information about the studio - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
 
 ### How the features were grouped
-- Headder: Title and navigation
-- Home: Photos and citates and short what Pilates is. Problably a button for signing up and another to link for classes
-- Sign Up: Sign up for membership
-- Classes: Which classes are offered, when they are offered, link to digital class and information about what you need to take part (e.g space, mat, rubber band)
-- About: About the studio and about the instructors
-- Footer: contact information and external links
+- **Header**: Title and navigation
+- **Home**: Photos and citates and short what Pilates is. Problably a button for signing up and another to link for classes
+- **Sign Up**: Sign up for membership
+- **Classes**: Which classes are offered, when they are offered, link to digital class and information about what you need to take part (e.g space, mat, rubber band)
+- **About**: About the studio and about the instructors
+- **Footer**: contact information and external links
 
 ## User requirements and Expectations
 ### Requirements
@@ -100,7 +104,11 @@ The studio is interested in attracting and retaining members during unusual time
 ## Wireframes
 I used Balsamiq Wireframes to build rudimentary wireframes for a basic understanding.
 I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
-The wireframes are saved in this workspacee under assets/wireframes/wireframes.pdf. 
+[Wireframes](https://github.com/Carina-P/LovePilates/blob/master/wireframes/wireframes.pdf)
+
+
+
+The wireframes are saved in this workspace under wireframes/wireframes.pdf. 
 
 ## Design Choices
 The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
@@ -121,8 +129,8 @@ I have choosen **Open Sans** that I think is a modern, friendly, easy to read fo
 * For header and footer background: Cultured #EFF1F0
 * For some padding and buttons-background to accenture: Sunray #E7B76F
 * For buttons and backgrounds that I want to stand out: Rose Madder #DF2935. Font on this background is White #FFFFFF for better contrast.
-<!--![Color palette](/assets/images/colors-pilates.png)--->
-<img src="//assets/images/colors-pilates.png" width="25%">
+
+<img src="/colors/pilates-colors.png" width="25%">
 
 ## Features
 <!--->
@@ -197,8 +205,36 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Bugs
+<!--->
 ## Deployment
+Love Pilates was developed on GitPod, using git and GitHub to host the repository.
 
+When deploying Love Pilates using GitHub Pages the following steps were made:
+
+* Opened up <strong>GitHub</strong> in the browser.
+* Signed in using username and password.
+* Selected my <strong>repositories</strong>.
+* Navigated to <strong>'/Carina-P/love-pilates'</strong>.
+* In the top navigation clicked <strong>'settings'</strong>.
+* Scrolled down to the <strong>GitHub Pages</strong> area. 
+* Selected <strong>'Master Branch'</strong> from the <strong>'Source'</strong> dropdown menu.
+* Clicked to confirm my selection.
+* Love Pilates now live on GitHub Pages.
+
+### Running Love Pilates locally
+
+Cloning Love Pilates from GitHub:
+
+* Navigate to <strong>'/Carina-P/love-pilates'</strong>.
+* Click the green <strong>'Clone or Download'</strong> button.
+* Copy the <strong>url</strong> in the dropdown box.
+* Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
+* Navigate to your desired file location. 
+* Copy the following <strong>code</strong> and input it into your terminal to clone Love Pilates.
+ ```git
+  git clone https://github.com/Carina-P/love-pilates.git
+   ```
+<!-->
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
