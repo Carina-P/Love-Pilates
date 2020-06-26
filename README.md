@@ -83,11 +83,13 @@ The studio is interested in attracting and retaining members during unusual time
 * Be provided with information on the studio
 * Content with visual appealing manor
 * Having a contact form
+* Using responsive design
 
 ### Expectations
 * Content is visually satisfying and informative
 * Navigation take user to specific Pages
 * Visual appealing data from external sources
+
 ## Wireframes
 I used Balsamiq Wireframes to build rudimentary wireframes for a basic understanding.
 I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
@@ -119,17 +121,24 @@ I have choosen **Open Sans** that I think is a clear, friendly, easy to read fon
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 <!--> 
 ### Existing Features
-- Header: Including logo and navbar
+- Header: Including logo and navbar. Sticking to the top of viewport.
 - Home: This is to inspire users with a hero-image and photos and quotes and a few words about what Pilates is.
     - Implemented in index.html
-- Sign Up: 
+- Sign Up: In this page the user can sign up for membership and choose to recieve a regular information mail.
+    - Implemented in sign-up.html
+- Classes: Here the user can find what online classes the studio offers. They are represented with pictures with 
+persons exercising and on the picture name of class and time. Under the picture an button for joining the class and 
+one button for more information about the class in a Modal.
+    - Implemented in classes.html
+- Footer: Containing some short words about the studio, contact information and external links with icons.
 
+<!-->
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
+<!-->
 ### Features Left to Implement
-- Another feature idea
+- About Us: I think a page with information about the studio and instructors also should be implemented but I have not prioritized it.
 
 ## Technologies Used
 ### Languages
