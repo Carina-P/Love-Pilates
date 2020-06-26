@@ -1,3 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: "Open Sans", sans-serif;
+}
 #logo{
     background: lightblue url("../images/pilates-logga.png") no-repeat cover;
+}
+
+#header,
+#footer{
+    background-color: #eff1f0;
 }
