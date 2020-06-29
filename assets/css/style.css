@@ -7,7 +7,9 @@
     font-family: "Open Sans", sans-serif;
 }
 #logo{
-    background: lightblue url("../images/pilates-logga.png") no-repeat cover;
+    width: 150px;
+    height: auto;
+;
 }
 
 #header,
