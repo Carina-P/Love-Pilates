@@ -92,7 +92,7 @@
             </div>
         </div>
     </section>
-<!----------------  Quotes--->
+<!----------------  Quotes------------>
 <!----------------  What is Pilates--->
      <section>
         <div class="jumbotron">
@@ -106,11 +106,46 @@
             <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
         </div>
     </section>
-    
-    
+  <!----------------  What is Pilates--->
+  <!----------------  Sign Up----------->
     <section>
-        
+        <form method="POST" action="">
+            <h2>Sign Up for Membership</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class ="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email_address" required>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>    
+
+            <div class="form-text">Earlier Experience?</div>    
+            <div class="form-check">
+                <input type="radio" id="curious" name="experience" value="curious" class="form-check-input">
+                <label for="curious" class="form-check-label">Curious but never tried</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="tried" name="experience" value="tried" class="form-check-input">
+                <label for="some" class="form-check-label">Tried a few times</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="more" name="experience" value="more" class="form-check-input">  
+                <label for="more" class="form-check-label">Trained between 1 and 3 years</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="a-lot" name="experience" value="a-lot" class="form-check-input">
+                <label for="a-lot" class="form-check-label">Trained more than 3 years</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
     </section>
+<!----------------  Sign up ------------>
+    <section>
+        Classes
+    </section>
+
     
     <footer id="footer" class="container-fluid">
         <div class="row">
