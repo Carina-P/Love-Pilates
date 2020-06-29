@@ -4,10 +4,14 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 #logo{
-    width: 150px;
-    height: auto;
+    color: black;
+    border-style: solid;
+    border-color: black;
 }
-
+.navbar-brand{
+    padding-right: .3125rem;
+    padding-left: .3125rem;
+}
 #header,
 #footer{
     background-color: #eff1f0;
