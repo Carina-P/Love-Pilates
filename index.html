@@ -45,50 +45,54 @@
     </header>
     
 <!----------------  Callout--->
-    <section>
-        <div class="jumbotron">
-            <h1 class="display-4">Workout from home!</h1>
-            <p class="lead">Classes availabel NOW</p>
-            <hr class="my-4">
-            <p>Just Sign Up once and then you are ready to Join A Class!</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Sign up</a>
-            <a class="btn btn-success btn-lg" href="#" role="button">Join a class</a>
+    <article>
+        <div class="container-fluid">
+            <div class="jumbotron text-center">
+                <h1 class="display-4">Workout from home!</h1>
+                <p class="lead">Classes availabel NOW</p>
+                <hr class="my-4">
+                <p>Just Sign Up once and then you are ready to Join A Class!</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Sign up</a>
+                <a class="btn btn-success btn-lg" href="#" role="button">Join a class</a>
+            </div>
         </div>
-    </section>
+    </article>
 <!----------------  Callout--->
 <!----------------  Quotes--->
     <section>
-        <div class="row">
-            <div class="col-12">
-                <h2>Quotes</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Quotes</h2>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-3 d-none d-lg-block" >
-                citat
+            <div class="row">
+                <div class="col-3 d-none d-lg-block" >
+                    citat
+                </div>
+                <div class="col-3 d-none d-lg-block" >
+                    Foto
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    Foto
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    citat
+                </div>
             </div>
-            <div class="col-3 d-none d-lg-block" >
-                Foto
-            </div>
-            <div class="col-12 col-md-6 col-lg-3" >
-                Foto
-            </div>
-            <div class="col-12 col-md-6 col-lg-3" >
-                citat
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 d-none d-lg-block" >
-                citat
-            </div>
-            <div class="col-3 d-none d-lg-block" >
-                Foto
-            </div>
-            <div class="col-12 col-md-6 col-lg-3" >
-                Foto
-            </div>
-            <div class="col-12 col-md-6 col-lg-3" >
-                citat
+            <div class="row">
+                <div class="col-3 d-none d-lg-block" >
+                    citat
+                </div>
+                <div class="col-3 d-none d-lg-block" >
+                    Foto
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    Foto
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    citat
+                </div>
             </div>
         </div>
     </section>
@@ -109,43 +113,133 @@
   <!----------------  What is Pilates--->
   <!----------------  Sign Up----------->
     <section>
-        <form method="POST" action="">
-            <h2>Sign Up for Membership</h2>
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class ="form-control" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" class="form-control" id="email" name="email_address" required>
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>    
+        <div class="container-fluid"> 
+            <form method="POST" action="">
+                <h2>Sign Up for Membership</h2>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class ="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email_address" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>    
 
-            <div class="form-text">Earlier Experience?</div>    
-            <div class="form-check">
-                <input type="radio" id="curious" name="experience" value="curious" class="form-check-input">
-                <label for="curious" class="form-check-label">Curious but never tried</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" id="tried" name="experience" value="tried" class="form-check-input">
-                <label for="some" class="form-check-label">Tried a few times</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" id="more" name="experience" value="more" class="form-check-input">  
-                <label for="more" class="form-check-label">Trained between 1 and 3 years</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" id="a-lot" name="experience" value="a-lot" class="form-check-input">
-                <label for="a-lot" class="form-check-label">Trained more than 3 years</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
-        </form>
+                <div class="form-text">Earlier Experience?</div>    
+                <div class="form-check">
+                    <input type="radio" id="curious" name="experience" value="curious" class="form-check-input">
+                    <label for="curious" class="form-check-label">Curious but never tried</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="tried" name="experience" value="tried" class="form-check-input">
+                    <label for="some" class="form-check-label">Tried a few times</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="more" name="experience" value="more" class="form-check-input">  
+                    <label for="more" class="form-check-label">Trained between 1 and 3 years</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="a-lot" name="experience" value="a-lot" class="form-check-input">
+                    <label for="a-lot" class="form-check-label">Trained more than 3 years</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
     </section>
 <!----------------  Sign up ------------>
+<!----------------  Classes ------------>
     <section>
-        Classes
+        <div class="container">      
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Essential Pilates</h5>
+                            <h5>Monday at 1 pm</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Join class</a> </br>
+                            <a class="btn btn-success btn-lg" href="#" role="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Essential Pilates</h5>
+                            <h5>Monday at 1 pm</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Join class</a> </br>
+                            <a class="btn btn-success btn-lg" href="#" role="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Essential Pilates</h5>
+                            <h5>Monday at 1 pm</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Join class</a> </br>
+                            <a class="btn btn-success btn-lg" href="#" role="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Essential Pilates</h5>
+                            <h5>Monday at 1 pm</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Join class</a> </br>
+                            <a class="btn btn-success btn-lg" href="#" role="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Essential Pilates</h5>
+                            <h5>Monday at 1 pm</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Join class</a> </br>
+                            <a class="btn btn-success btn-lg" href="#" role="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Essential Pilates</h5>
+                            <h5>Monday at 1 pm</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Join class</a> </br>
+                            <a class="btn btn-success btn-lg" href="#" role="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
     </section>
-
+<!----------------  Classes ------------>
     
     <footer id="footer" class="container-fluid">
         <div class="row">
