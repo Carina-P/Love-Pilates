@@ -17,35 +17,18 @@ body{
     background-color: #eff1f0;
 }
 
-.hero-image {
-  background-image: url("../images/hero-image.png");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
+.hero-image{
+    height: 50vh;
+    background-image: url("../images/hero-image_2.png");
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ 
+ /*
+  background-image : url("../images/hero-image.png");
   position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
+  background-size: auto;
+  background-position: center;
+  display: flex; */
 }
