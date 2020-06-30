@@ -18,7 +18,8 @@ body{
 }
 
 .hero-image{
-    height: 75vh;
+    margin-top: 50px;
+    height: 50vh;
     background-image: url("../images/hero-image.png");
     background-color: #e8e8e8;
     background-position: center;
