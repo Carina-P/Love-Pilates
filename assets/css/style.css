@@ -24,7 +24,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-   
     margin-top: 92px;
  
  /*
@@ -35,5 +34,10 @@ body{
   display: flex; */
 }
 .callout{
-    background: rgb(239, 241, 240, 0.2);
+    background: rgba(255,255,255,0.2);
+}
+
+.quotes-img{
+    height: 100px;
+    width: 100px;
 }
