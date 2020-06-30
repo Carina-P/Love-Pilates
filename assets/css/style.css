@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 body{
     font-family: "Open Sans", sans-serif;
+    color: #262730;
 }
 #logo{
-    color: black;
+    color: #262730; 
     border-style: solid;
-    border-color: black;
+    border-color: #262730;
 }
 .navbar-brand{
     padding-right: .3125rem;
@@ -66,4 +67,18 @@ body{
     color: #df2935;
     background-color: white;
     border-color: white;
+}
+
+.carousel-color{
+    background-color: #df2935;
+    color: #df2935;
+}
+
+.hero-img-ess{
+    height: 20vh;
+    background-image: url("../images/hero-img-ess.png");
+    background-color: #e8e8e8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
