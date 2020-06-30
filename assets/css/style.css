@@ -13,7 +13,8 @@ body{
     padding-left: .3125rem;
 }
 #header,
-#footer{
+#footer,
+.background-color--sunny{
     background-color: #e7b76f;
 }
 
@@ -24,13 +25,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
- 
- /*
-  background-image : url("../images/hero-image.png");
-  position: relative;
-  background-size: auto;
-  background-position: center;
-  display: flex; */
 }
 .callout{
     background: rgba(55,63,81,0.2);

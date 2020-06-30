@@ -141,7 +141,7 @@
 <!----------------  Quotes------------>
 <!----------------  What is Pilates--->
      <section>
-        <div class="jumbotron">
+        <div class="jumbotron background-color--sunny">
             <h1 class="display-4 text-center">What is Pilates?</h1>
             <hr class="my-4">    
             <p>
@@ -151,45 +151,56 @@
                 exercise mat to improve strength, posture, flexibility and mental awareness.
             </p>
             <div class="text-center">
-                <p><a class="btn btn-sm btn-light" href="https://en.wikipedia.org/wiki/Pilates" target="_blank">Read More</a></p>
+                <p><a class="btn btn-sm btn--rose" href="https://en.wikipedia.org/wiki/Pilates" target="_blank">Read More</a></p>
             </div>
         </div>
     </section>
   <!----------------  What is Pilates--->
   <!----------------  Sign Up----------->
     <section>
-        <div class="container-fluid"> 
-            <form method="POST" action="">
-                <h2>Sign Up for Membership</h2>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" clasgit adds ="form-control" id="name" name="name" required>
+        <div class="container"> 
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Sign Up for Membership</h2>
+                    <hr class="block-divider block-divider--rose block-divider--short">
                 </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" class="form-control" id="email" name="email_address" required>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>    
+                <div class="col-12">
+                    <div class="container-fluid">
+                        <form method="POST" action="" class="jumbotron">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" clasgit adds ="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email_address" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>    
 
-                <div class="form-text">Earlier Experience?</div>    
-                <div class="form-check">
-                    <input type="radio" id="curious" name="experience" value="curious" class="form-check-input">
-                    <label for="curious" class="form-check-label">Curious but never tried</label>
+                            <div class="form-text">Earlier Experience?</div>    
+                            <div class="form-check">
+                                <input type="radio" id="curious" name="experience" value="curious" class="form-check-input">
+                                <label for="curious" class="form-check-label">Curious but never tried</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" id="tried" name="experience" value="tried" class="form-check-input">
+                                <label for="some" class="form-check-label">Tried a few times</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" id="more" name="experience" value="more" class="form-check-input">  
+                                <label for="more" class="form-check-label">Trained between 1 and 3 years</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" id="a-lot" name="experience" value="a-lot" class="form-check-input">
+                                <label for="a-lot" class="form-check-label">Trained more than 3 years</label>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn--rose btn-small">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <input type="radio" id="tried" name="experience" value="tried" class="form-check-input">
-                    <label for="some" class="form-check-label">Tried a few times</label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" id="more" name="experience" value="more" class="form-check-input">  
-                    <label for="more" class="form-check-label">Trained between 1 and 3 years</label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" id="a-lot" name="experience" value="a-lot" class="form-check-input">
-                    <label for="a-lot" class="form-check-label">Trained more than 3 years</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign Up</button>
-            </form>
+            </div>
         </div>
     </section>
 <!----------------  Sign up ------------>
