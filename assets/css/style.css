@@ -40,3 +40,36 @@ body{
     padding-top: 75px;
     padding-bottom: 75px;
 }
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--sunny {
+    background-color:  #e7b76f;
+}
+
+.block-divider--rose{
+    background-color:  #df2935;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+.btn--rose{
+    color: white;
+    background-color: #df2935;
+    border-color: #df2935;
+}
+
+.btn--rose-light{
+    color: #df2935;
+    background-color: white;
+    border-color: white;
+}
