@@ -17,14 +17,15 @@ body{
     background-color: #eff1f0;
 }
 
-.hero-image{
-    margin-top: 50px;
+.hero-image{ 
     height: 50vh;
     background-image: url("../images/hero-image.png");
     background-color: #e8e8e8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+   
+    margin-top: 92px;
  
  /*
   background-image : url("../images/hero-image.png");
@@ -32,4 +33,7 @@ body{
   background-size: auto;
   background-position: center;
   display: flex; */
+}
+.callout{
+    background: rgb(239, 241, 240, 0.2);
 }
