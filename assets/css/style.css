@@ -14,17 +14,16 @@ body{
 }
 #header,
 #footer{
-    background-color: #eff1f0;
+    background-color: #e7b76f;
 }
 
 .hero-image{ 
-    height: 50vh;
+    height: 75vh;
     background-image: url("../images/hero-image.png");
     background-color: #e8e8e8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 92px;
  
  /*
   background-image : url("../images/hero-image.png");
@@ -34,10 +33,10 @@ body{
   display: flex; */
 }
 .callout{
-    background: rgba(255,255,255,0.2);
+    background: rgba(55,63,81,0.2);
+    color: #ffffff;
 }
-
-.quotes-img{
-    height: 100px;
-    width: 100px;
+.quotes-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
