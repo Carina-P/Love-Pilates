@@ -89,13 +89,13 @@ body{
   background-image: url("../images/hero-img-pro.png");  
 }
 .hero-img-mam{
-  background-image: url("../images/hero-img-pro.png");  
+  background-image: url("../images/hero-img-mam.png");  
 }
 .hero-img-pre{
-  background-image: url("../images/hero-img-pro.png");  
+  background-image: url("../images/hero-img-pre.png");  
 }
 .hero-img-vin{
-  background-image: url("../images/hero-img-pro.png");  
+  background-image: url("../images/hero-img-vin.png");  
 }
 .opaque-bg{
     background: rgba(255,255,255,0.5);
