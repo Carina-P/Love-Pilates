@@ -60,13 +60,13 @@ body{
 .btn--rose{
     color: white;
     background-color: #df2935;
-    border-color: #df2935;
+    border-color: white;
 }
 
 .btn--rose-light{
     color: #df2935;
     background-color: white;
-    border-color: white;
+    border-color:#df2935;;
 }
 
 .carousel-color{
@@ -74,11 +74,30 @@ body{
     color: #df2935;
 }
 
-.hero-img-ess{
+.hero-img-classes{
     height: 20vh;
-    background-image: url("../images/hero-img-ess.png");
     background-color: #e8e8e8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-img-ess{
+  background-image: url("../images/hero-img-ess.png");  
+}
+.hero-img-pro{
+  background-image: url("../images/hero-img-pro.png");  
+}
+.hero-img-mam{
+  background-image: url("../images/hero-img-pro.png");  
+}
+.hero-img-pre{
+  background-image: url("../images/hero-img-pro.png");  
+}
+.hero-img-vin{
+  background-image: url("../images/hero-img-pro.png");  
+}
+.opaque-bg{
+    background: rgba(255,255,255,0.5);
+    margin: 0;
 }
