@@ -22,7 +22,8 @@ body{
 .hero-image{ 
     height: 75vh;
     background-image: url("../images/hero-image.png");
-    background-color: #ffffff;
+    background-color: #e7b76f;
+   /* background-color: #e9ecef; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -32,8 +33,7 @@ body{
     color: #ffffff;
 }
 .quotes-container{
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding: 2rem 2rem 4rem 2rem;
 }
 
 .quotes-bg{
