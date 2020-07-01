@@ -22,7 +22,7 @@ body{
 .hero-image{ 
     height: 75vh;
     background-image: url("../images/hero-image.png");
-    background-color: #e8e8e8;
+    background-color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -34,6 +34,10 @@ body{
 .quotes-container{
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+.quotes-bg{
+    background-color: #e9ecef;
 }
 .block-divider {
     width: 75px;
@@ -69,9 +73,8 @@ body{
     border-color:#df2935;;
 }
 
-.carousel-color{
-    background-color: #df2935;
-    color: #df2935;
+.mg-classes{
+    margin: 5% 2%;
 }
 
 .hero-img-classes{
