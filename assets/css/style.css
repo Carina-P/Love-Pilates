@@ -7,7 +7,6 @@ body{
     color: #262730;
 }
 
-header,
 footer,
 .background-color--sunny{
     background-color: #e7b76f;
@@ -50,6 +49,10 @@ button:hover{
 }
 
 /* Header*/
+/* Since the header is fixed it hides content which is a little confusing when having navigated with navbar. And that is why its made a little opaque */
+header{
+    background:rgb(231, 183, 111, 0.7);
+}
 #logo{
     color: #262730; 
     border-style: solid;
