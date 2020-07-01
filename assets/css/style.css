@@ -7,8 +7,8 @@ body{
     color: #262730;
 }
 
-#header,
-#footer,
+header,
+footer,
 .background-color--sunny{
     background-color: #e7b76f;
  }
@@ -41,6 +41,12 @@ body{
     color: #df2935;
     background-color: white;
     border-color:#df2935;;
+}
+
+a:hover,
+button:hover{
+    background: rgba(55,63,81,0.2);
+    color:#ffffff;
 }
 
 /* Header*/
