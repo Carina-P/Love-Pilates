@@ -1,44 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/* General classes and ids*/
 body{
     font-family: "Open Sans", sans-serif;
     color: #262730;
 }
-#logo{
-    color: #262730; 
-    border-style: solid;
-    border-color: #262730;
-}
-.navbar-brand{
-    padding-right: .3125rem;
-    padding-left: .3125rem;
-}
+
 #header,
 #footer,
 .background-color--sunny{
     background-color: #e7b76f;
-}
-
-.hero-image{ 
-    height: 75vh;
-    background-image: url("../images/hero-img.png");
-    background-color: #e7b76f;
-   /* background-color: #e9ecef; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.callout{
-    background: rgba(55,63,81,0.2);
-    color: #ffffff;
-}
-.quotes-container{
-    padding: 2rem 2rem 4rem 2rem;
-}
-
-.quotes-bg{
-    background-color: #e9ecef;
-}
+ }
+ 
 .block-divider {
     width: 75px;
     height: 5px;
@@ -52,11 +26,7 @@ body{
 .block-divider--rose{
     background-color:  #df2935;
 }
-
-.block-divider--white {
-    background-color: white;
-}
-
+ 
 .block-divider--short {
     width: 35px;
 }
@@ -73,7 +43,45 @@ body{
     border-color:#df2935;;
 }
 
-.mg-classes{
+/* Header*/
+#logo{
+    color: #262730; 
+    border-style: solid;
+    border-color: #262730;
+}
+ 
+.navbar-brand{
+    padding-right: .3125rem;
+    padding-left: .3125rem;
+}
+
+/* Callout-section with hero-image */
+.hero-image{ 
+    height: 75vh;
+    background-image: url("../images/hero-img.png");
+    background-color: #e7b76f;
+   /* background-color: #e9ecef; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.callout{
+    background: rgba(55,63,81,0.2);
+    color: #ffffff;
+}
+
+/* Quotes-section */
+.quotes-container{
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+.quotes-bg{
+    background-color: #e9ecef;
+} 
+ 
+/* Classes-section */
+.classes-mg{
     margin: 5% 2%;
 }
 
@@ -83,23 +91,28 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 
 .hero-img-ess{
   background-image: url("../images/hero-img-ess.png");  
 }
+
 .hero-img-pro{
   background-image: url("../images/hero-img-pro.png");  
 }
+
 .hero-img-mam{
   background-image: url("../images/hero-img-mam.png");  
 }
+
 .hero-img-pre{
   background-image: url("../images/hero-img-pre.png");  
 }
+
 .hero-img-vin{
   background-image: url("../images/hero-img-vin.png");  
 }
+
 .opaque-bg{
     background: rgba(255,255,255,0.5);
     margin: 0;
