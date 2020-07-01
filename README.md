@@ -130,7 +130,7 @@ I have choosen **Open Sans** that I think is a modern, friendly, easy to read fo
 * For buttons and backgrounds that I want to stand out: Rose Madder #DF2935. Font on this background is White #FFFFFF for better contrast.
 * For some padding and buttons-background to accenture: Sunray #E7B76F
 
-<img src="/colors/colors-pilates.png" width="75%">
+<img src="/wireframes/colors-pilates.png" width="75%">
 
 ## Features
 <!--->
