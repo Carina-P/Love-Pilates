@@ -134,38 +134,57 @@ I have choosen **Open Sans** that I think is a modern, friendly, easy to read fo
 **Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are self explanatory.
 
 ### Colours
-* For good contrast:
-    * On lighter background: Raisin black #262730
-    * On darker backgrund: White #ffffff
-* For header and footer background: Cultured #EFF1F0
-* For buttons and backgrounds that I want to stand out: Rose Madder #DF2935. Font on this background is White #FFFFFF for better contrast.
-* For some padding and buttons-background to accenture: Sunray #E7B76F
+* For text: Charchool #373f51
+* Some headers and titels: Raisin black #262730
+* For body background: White #ffffff
+* For header and footer background: Cultured #eff1f0
+* For buttons and backgrounds that I want to stand out: Rose Madder #df2935. Font on this background is White #ffffff for better contrast.
+* For some padding and buttons-background to accenture: Sunray #e7b76f
 
 <img src="/wireframes/colors-pilates.png" width="75%">
+
+After testing I decided that I wanted more color and did not use gray backgrounds as much as I planned. For good contrast I choosed to use the darker color for all text on lighter background. 
+I still use above colors but it looks like this instead:
+* Fonts for good contrast:
+    * Lighter backgrounds: Raisin black #262730
+    * Darker backgrounds: White: #ffffff
+* Backgrounds: Sunray #e7b76f, Cultured #eff1f0 and  Charchool #373f51
+* All buttons: Rose Madder #DF2935 and white #ffffff
+
+
 
 ## Features
 <!--->
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 <!--> 
 ### Existing Features
-- Header: Including logo and navbar. Sticking to the top of viewport. 
-- Home: This is to inspire users with a hero-image and photos and quotes and a few words about what Pilates is.
-    - Implemented in index.html
-- Sign Up: In this page the user can sign up for membership and choose to recieve a regular information mail.
-    - Implemented in sign-up.html
-- Classes: Here the user can find what online classes the studio offers. They are represented with pictures with 
-persons exercising and on the picture name of class and time. Under the picture an button for joining the class and 
-one button for more information about the class in a Modal.
-    - Implemented in classes.html
-- Footer: Containing some short words about the studio, contact information and external links with icons.
-
-<!-->
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-<!-->
+- **Header** fixed at the top of the viewport, with:
+    - **logo** and    
+    - **navbar** leading to home, sign up and classes, with:
+- **Callout**-section to caught attention:
+    - Inspirational *hero image*
+    - Link to **sign up**
+    - Link to **join class**
+- **Quotes**-section with information what others think about the studio and Pilates, with:
+    - **Carousel** with photo and quote
+- **What is Pilates?**-sectio, with,
+    - **button** to external **link** with more information
+- **Sign-up**-section, with:
+    - **inputform**: **validation** on email. This is not a complete feature since nothing happens when you press Sign Up.
+- **Classes**-section, with:
+    - **Photos** and **information** about classes
+    - Every class has:
+        - Read More-**button** with text about the class given in **modal**.
+        - Join class-**button** with **popover** informating that it is not implemented.
+- **Footer**, with:
+    - Short information about studio and **address**
+    - **Contact** information with **icons**
+    - **External links** in the form of **icons**
+ 
 ### Features Left to Implement
-- About Us: I think a page with information about the studio and instructors also should be implemented but I have not prioritized it.
+- About Us: More information about the studio and instructors
+- The information in sign up-form is not taken care of - no information is sent
+- Join Classes has no link
 
 ## Technologies Used
 ### Languages
@@ -173,12 +192,16 @@ In addition, you may also use this section to discuss plans for additional featu
     * The perfect language to build a static site.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
     * For styling the site
+* [JavaScript](https://www.javascript.com/)
+    * Used only for popover
 
 ### Tools and libraries
 * [Git](https://git-scm.com/)
     * For version control and storing the code
 * [Bootstrap](https://getbootstrap.com/)
     * A helpful HTML, CSS (and JS) library
+* [Popper](https://popper.js.org/)
+    *   In this project only for popover
 * [Font-Awesome](https://fontawesome.com/icons?d=gallery)
     * From this library I picked the icons
 * [Google fonts](https://fonts.google.com/)
@@ -187,22 +210,39 @@ In addition, you may also use this section to discuss plans for additional featu
     * For designing the wireframes
 * [Coolors](https://balsamiq.com/)
     * To generate color-schemes
-<!-----
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site
- and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All testing have been conducted **manually**.
+Testing was performed **regularly** in a circular manner during the development of the site and then **thorough** after all features was in place. 
+Testing often after a small part of development means that it is easier to find and fix bugs and it is also a way to use the experience found in coming development.
+
+Description of the circular manner of developing and testing:
+1. The basic structure in html was put in place
+    After each section completed - test was performed for mobile, tablet and desktop each
+2. First round of implementing with Bootstrap
+     After each section completed - test was performed for mobile, tablet and desktop each
+3. Second round of implementing with Bootstrap to improve
+    After each section completed - test was performed for mobile, tablet and desktop each
+4. At last the styling is css was put in place
+    After each section completed - test was performed for mobile, tablet and desktop each
+5. After that improving details started
+    After each detail build - test was performed for mobile, tablet and desktop each
+6. And so on...
+
+When all features was implemented the following tests was performed:
+- According to the **scenarios** as described below 
+- Validated by [W3S Markup validation service](https://validator.w3.org/)
+- Validated by [W3s CSS validation service](https://jigsaw.w3.org/css-validator/)
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go 
+over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing 
+process is via scenarios, such as:
+## Scenarios
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
