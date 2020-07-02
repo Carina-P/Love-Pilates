@@ -1,6 +1,6 @@
 # Love Pilates
 <!---![Hero-image](/assets/images/hero-image.png){:height=500px :width=500px} <!--->
-<img src="/assets/images/hero-image.png" width =30%>
+<img src="/assets/images/hero-img.png" width =30%>
 
 ### The absolutely best Pilates studio is now offering online-courses. 
 ### You can do workout from home guided by our skillful instructors. 
@@ -46,39 +46,42 @@ During pandemic the studio cannot have classes in the studio so they started to 
 The goal is to keep regular customers active and lojal to the studio but also to find new clients.
 New client will hopefully become regular clients and in the future also use the studio. And perhaps online classes will be something that continues even after the pandemic.
 ### Target Audience goals:  
-The site users are the studios regular clients but also potential clients. The clients wants to know which classes are offered, when they are offered, what is needed to join an online class. 
+The site users are the studios regular clients but also potential clients. The clients wants to know which classes are offered, when they are offered and a link to join. 
 A potential client wants to know about pilates, how professional the studio is and if it is a studio that fits this client.
 
 ### Site owner's goal: 
 The studio is interested in attracting and retaining members during unusual times.
 
 ### Potential features to include: 
-- photos and quotes from people who experience how good pilates whit emphasis on workout at home
-- provide detail on the classes, what you need to take part, their schedule and link to actual online class
-- provide information on the instructur of the centre to show the competence and seriousness.
-- Provide information about Pilates and what it is good for.
-- Provide information on contact details and external resources.
-- Sign up to be a member and give the studio contact information as mail. And also chose if you want weekly mail with information about pilates, tips and on upcoming events
-- Showcase photo of people exercising in the studio. This is to remind people that there also is a studio to go to if they want to.
+- **Quotes and photos** from people who experience how good pilates whit emphasis on workout at home
+- Provide **detail on the classes**, what you need to take part, their schedule and link to actual online class
+- Provide **information on the instructur** of the centre to show the competence and seriousness.
+- Provide **information about Pilates** and what it is good for.
+- Provide information on **contact details and external resources**.
+- **Sign up to come be a member** and give the studio contact information as mail address.
+- **Showcase photo** of people exercising in the studio. This is to remind people that there also is a studio to go to if they want to.
 
 ### User Stories:
 Regular Clients:
-- As a user I want to get a "feeling for the studio", what it offers, the atmosphere and how professionel they are. I want to see pictures and photos and I want to know more about the instructors.
-- As a user I want to see at what time different classes are.
-- As a user I want to know what the different class do and find the right class for me.
-- As a user I want to find contact information to the studio so I can ask my questions.
-- As a user I want to sign up for membership or get more information
+- As a user I want to get a **"feeling for the studio"**, what it offers, the atmosphere and how professionel they are. 
+- As a user I want to see **pictures and photos**
+- As a user I want to know more about the **instructors**.
+- As a user I want to see at **what time different classes** are.
+- As a user I want to know **what the different class do** and find the right class for me.
+- As a user I want to find **contact information** to the studio so I can ask my questions.
+- As a user I want to **sign up for membership** 
+- As a user I want a **link to join a online class** I have choosen.
 
 ### How the features is prioritized: 
-1. Photos and citates - important for attracting potential clients
-1. Sign up for membership including information-letter - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again.
-2. Link to the digital class - important for regular clients and probably what they use the site to most of the time 
-3. The classes schedule - important for regular clients and probably what they use the site to most of the time 
-4. What classes are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
-5. What is Pilates - information for potential clients
-5. Information about the instructors - to show that this is a professional studio
-6. Contact information - to ask questions 
-7. Information about the studio - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
+1. **Quotes and Photos** - important for attracting potential clients
+1. **Sign up for membership** - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again.
+2. **Link to the digital class** - important for regular clients and probably what they use the site to most of the time 
+3. **The classes schedule** - important for regular clients and probably what they use the site to most of the time 
+4. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
+5. **What is Pilates** - information for potential clients
+5. **Information about the instructors** - to show that this is a professional studio
+6. **Contact information** - to ask questions 
+7. **Information about the studio** - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
 
 ### How the features were grouped
 - **Header**: Title and navigation
@@ -90,30 +93,38 @@ Regular Clients:
 
 ## User requirements and Expectations
 ### Requirements
-* Navigate the website using navbar
-* Be provided with information on the studio
-* Content with visual appealing manor
-* Having a contact form
-* Using responsive design
+* Navigate the website using **navbar**
+* **Easily sign up for membership** in a contact form: giving name, a correct mailadress and level of experience
+* Being able to **join a online** class with a click
+* See **quotes, with photos,** about what other think about the studio, instructors and Pilates.
+* Being **provided with information**:
+    * about **Pilates** 
+    * on the **studio**
+    * the **instructors**
+    * about **classes**
+    * what **time** different online classes take place
+
 
 ### Expectations
-* Content is visually satisfying and informative
-* Navigation take user to specific Pages
-* Visual appealing data from external sources
+* Content is **visually satisfying and informative**
+* **Easily understandable navigation** take user to correct place
+* **Links and buttons** work as espected
+* **Responsive design** fitting on mobile, tablet and desktop
+* **Form validation** works correctly
 
 ## Wireframes
-I used Balsamiq Wireframes to build rudimentary wireframes for a basic understanding.
+I [Balsamiq Wireframes](https://balsamiq.com/) to build rudimentary wireframes for a basic understanding.
 I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
 [Wireframes](https://github.com/Carina-P/LovePilates/blob/master/wireframes/wireframes.pdf)
 
-
-
-The wireframes are saved in this workspace under wireframes/wireframes.pdf. 
+I checked wireframes with users and especially younger preferred all information in one page since it is a moderate amount of features: they use mobile device and do not want to click a lot.
+One user suggested to use a carousel for quotes - takes less space. I tried that and thougt it was appealing.
 
 ## Design Choices
 The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
-The feeling is sensible, calm but also stubborn and strong. The site should be appealing to men, women, old and young as well as inspire to work out at home.
-I have choosen the hero-image to be a drawn picture and not a photo. The picture I found inspired the colors I choose.
+The feeling is sensible, calm but also stubborn and strong.
+I looked around different pilates sites to find inspiration and desided that I wanted a hero-image to be a drawn picture - for me it felt more modern. I found a picture that I thought was inspiring, 
+found above. And the picture inspired to the colors I have choosen to use. 
 I think grey is a cool and neutral color. I want to use that and add some colors to make the site more positive and draw attention to it.
 
 ### Fonts
@@ -123,9 +134,9 @@ I have choosen **Open Sans** that I think is a modern, friendly, easy to read fo
 **Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are self explanatory.
 
 ### Colours
-* For body text and some titels: Charchool #373F51
-* Some headers and titels: Raisin black #262730
-* For body background: White #FFFFFF
+* For good contrast:
+    * On lighter background: Raisin black #262730
+    * On darker backgrund: White #ffffff
 * For header and footer background: Cultured #EFF1F0
 * For buttons and backgrounds that I want to stand out: Rose Madder #DF2935. Font on this background is White #FFFFFF for better contrast.
 * For some padding and buttons-background to accenture: Sunray #E7B76F
