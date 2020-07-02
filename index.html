@@ -51,12 +51,12 @@
             <div>Sign up (once) and you are ready to join</div>
             <hr>
             <a class="btn btn--rose btn-small" href="#sign-up" role="button" aria-label="Sign up for a class">Sign up</a>
-            <!-- Copied this from bootstrap -->
-            <a tabindex="0" class="btn btn--rose-light btn-small" role="button" data-toggle="popover" data-trigger="focus" 
-             title="Not working" data-content="In the future here will be a link to a class" aria-hidden="true">Join Class</a>
-            <!--
-                <a class="btn btn--rose-light btn-small" role="button" aria-hidden="true">Join class</a>
-            -->
+            <!--Need container for the <a> since it inherites parents color -->
+            <span class="container-join-btn">
+                <!-- Copied this from bootstrap -->
+                <a tabindex="0" class="btn btn--rose-light btn-small" role="button" data-toggle="popover" data-trigger="focus" 
+                title="Not working" data-content="In the future here will be a link to a class" aria-hidden="true">Join Class</a>
+            </span>
         </div>
     </article> 
 <!----------------  Callout--->
