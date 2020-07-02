@@ -13,10 +13,7 @@ footer,
     background-color: #e7b76f;
  }
  
- footer {
-     color: #ffffff;
- }
-
+ 
 .block-divider {
     width: 75px;
     height: 5px;
@@ -139,6 +136,24 @@ header{
     background: rgba(255,255,255,0.5);
     margin: 0;
 }
+
+/* Footer */
+footer {
+     color: #ffffff;
+ }
+ /*
+ footer h5{
+     color:#ffffff;
+ }
+ */
+.icon-white{
+    color: #ffffff;
+}
+.icon-black{
+    color: #262730;
+}
+
+
 
 /* Otherwise the picture is cut horizontally in larger media */
 @media (min-width: 992px){
