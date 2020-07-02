@@ -10,9 +10,13 @@ body{
 
 footer,
 .background-color--sunny{
-    background-color: #e7b76;
+    background-color: #e7b76f;
  }
  
+ footer {
+     color: #ffffff;
+ }
+
 .block-divider {
     width: 75px;
     height: 5px;
@@ -52,8 +56,7 @@ button:hover{
 /* Header*/ 
 header{
     background-color: #e7b76f;
-    color: #ffffff;
-    font-weight: bold;
+    font-weight: bold; 
 }
 #logo{
     color: #ffffff;
@@ -61,11 +64,14 @@ header{
     border-style: solid;
     border-color: #262730;
 }
- 
 .navbar-brand{
     padding-right: .3125rem;
     padding-left: .3125rem;
 }
+.nav-link {
+    color: #ffffff;
+}
+
 
 /* Callout-section with hero-image */
 .hero-image{ 
