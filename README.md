@@ -231,17 +231,34 @@ Description of the circular manner of developing and testing:
 6. And so on...
 
 When all features was implemented the following tests was performed:
-- According to the **scenarios** as described below 
+- According to the **scenarios** as described below
 - Validated by [W3S Markup validation service](https://validator.w3.org/)
 - Validated by [W3s CSS validation service](https://jigsaw.w3.org/css-validator/)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go 
-over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Validation with W3S
+### Markup Validation
+The following messages was received:
+- Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
+    - Solved by removing extra hyphens in comments
+- Error: End tag br
+    - corrected </br> to <br>
+- Error: Attribute arial-label not allowed on element a at this point.
+    - corrected my spelling to aria-label
+- Error: End tag div seen, but there were open elements.
+    -  corrected when I solved the blockquote-bug below
+- Error: Unclosed element blockquote.
+    - corrected by putting the missing </blockquote> in place
+- Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.
+    - corrected the attribute
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Did the validation after correction the above and got: "Document checking completed. No errors or warnings to show."
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing 
-process is via scenarios, such as:
+Comment: It was stupid errors, that I wish I had not done, but I am happy that they where found.
+
+### CSS Validation
+Got a "Congratulations! No errors were found" but with a warning: "Imported styles are not reviewed for direct input or file upload". And this is reffering to the import of fonts and 
+I decided that I could trust Google font that I imported from.
+
 ## Scenarios
 1. Contact form:
     1. Go to the "Contact Us" page
