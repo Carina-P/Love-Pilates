@@ -5,11 +5,12 @@
 body{
     font-family: "Open Sans", sans-serif;
     color: #262730;
+    scroll-behavior: smooth;
 }
 
 footer,
 .background-color--sunny{
-    background-color: #e7b76f;
+    background-color: #e7b76;
  }
  
 .block-divider {
@@ -48,13 +49,15 @@ button:hover{
     color:#ffffff;
 }
 
-/* Header*/
-/* Since the header is fixed-top it hides content which is a little confusing when having navigated with navbar. And that is why its made a little opaque */
+/* Header*/ 
 header{
-    background:rgb(231, 183, 111, 0.7);
+    background-color: #e7b76f;
+    color: #ffffff;
+    font-weight: bold;
 }
 #logo{
-    color: #262730; 
+    color: #ffffff;
+    /*color: #262730;*/ 
     border-style: solid;
     border-color: #262730;
 }
@@ -66,9 +69,9 @@ header{
 
 /* Callout-section with hero-image */
 .hero-image{ 
-    height: 75vh;
+    height: 100vh;
     background-image: url("../images/hero-img.png");
-    background-color: #e7b76f;
+    background-color: #ffffff;
    /* background-color: #e9ecef; */
     background-position: center;
     background-repeat: no-repeat;
