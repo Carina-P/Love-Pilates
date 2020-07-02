@@ -260,20 +260,64 @@ Got a "Congratulations! No errors were found" but with a warning: "Imported styl
 I decided that I could trust Google font that I imported from.
 
 ## Scenarios
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
+
+Checking these scenarios for mobile, tablet and desktop respectively
+
+1. Navigating from menu in header:
+    1. Check that clicking on logo leads to homepage
+    2. Check that clicking on Home goes to homepage
+    3. Check that clicking on Sign Up leads to Sign up-form
+    4. Check that clicking on Classes leads to the section about classes
+    5. Check that the choices in About us drop down leads to page informing that it is not implemented
+
+2. Links in Callout
+    1. At beginning of page callout-section over painted picture
+    1. Check that Sign Up-button leads to Sign Up-section
+    2. Check that Join class-button show a popover when clicked. And that popover disappears when clicking anywhere.
+
+3. Carousel
+    1. Go to Quotes-part 
+    2. Check that the carousel is moving correctly
+    3. Check that clicking on the arrow to the right makes the carousel show next content
+    4. Check that clicking on the arrow to the left makes the carousel show previous content
+
+4. Read more about Pilates
+    1. Go to section "What is Pilates?"
+    2. Check that the button Read More goes to external wikipedia-page about Pilates. 
+    3. Check that the page is opened in a new tab.
+
+5. Contact form:
+    1. Go to the Sign Up-section
+    2. Try to submit the empty form and verify that an error message about the required fields appears.
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+6. Classes:
+    1. Got to the section with classes
+    2. Try to click all Read Me-buttons and check that modal with correct information appears
+    3. Try to click all Join class-buttons and check that you get the message that it is not implemented.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+7. Links in footer  
+    1. Go to footer
+    2. Check that external links works and appears in new tab
 
 ## Bugs
-<!--->
+1. "Hero-image" was not looking good in different viewports. I tested in many ways before I decided a solution: 
+    - Bacground-size contain for lager viewports (over 992px) and cover for the rest. In this way the whole girl is always shown.
+2. A stupid bug was that the same text was shown in all Modals but for different classes:
+    - The problem was that I had used the same id (and datatarget) for all. Also a stupid bug but easy to fix.
+3. Radio button-list in Sign up-form did not look good:
+    - After a while I realized that I had to put <input> befor <label> if I wanted text after (instead of before) the litle circle.
+4. Carousel: 
+    - Took me a while to figure out how to make it look good with "two parts" in the content. The code I copied from Bootstrap was intended
+    one type of content only.
+5. Header hides the content under e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
+    - I realize that I can give each container a larger top-margin. Put since the header is 92px I thought it would take to much space and a made 
+    the navbar a little optique insteda. I am not perfectly happy about that.
+6. Wanted something to show that the Join Class-buttons still is not implemented and I was curious about popover. The text in button suddenly did not show:
+Found out that text was inherited and this parents text was in white and button-background was white. This took me a while to solve especially since I did 
+not understand tips in Bootstrap that referred to JavaScript that I do not know yet. In the end I solved it by putting the button in a container. And the container I gave the color Raisin Black.
+ 
 ## Deployment
 Love Pilates was developed on GitPod, using git and GitHub to host the repository.
 
@@ -282,7 +326,7 @@ When deploying Love Pilates using GitHub Pages the following steps were made:
 * Opened up <strong>GitHub</strong> in the browser.
 * Signed in using username and password.
 * Selected my <strong>repositories</strong>.
-* Navigated to <strong>'/Carina-P/love-pilates'</strong>.
+* Navigated to <strong>'/Carina-P/Love-Pilates'</strong>.
 * In the top navigation clicked <strong>'settings'</strong>.
 * Scrolled down to the <strong>GitHub Pages</strong> area. 
 * Selected <strong>'Master Branch'</strong> from the <strong>'Source'</strong> dropdown menu.
@@ -293,7 +337,7 @@ When deploying Love Pilates using GitHub Pages the following steps were made:
 
 Cloning Love Pilates from GitHub:
 
-* Navigate to <strong>'/Carina-P/love-pilates'</strong>.
+* Navigate to <strong>'/Carina-P/Love-Pilates'</strong>.
 * Click the green <strong>'Clone or Download'</strong> button.
 * Copy the <strong>url</strong> in the dropdown box.
 * Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
