@@ -12,6 +12,10 @@ footer,
 .background-color--sunny{
     background-color: #e7b76f;
  }
+
+ .background-color--white{
+     background-color: #ffffff;
+ }
  
  
 .block-divider {
@@ -90,6 +94,10 @@ header{
     color: black;
 }
 
+/* About-section */
+.pilates-mg{
+    margin: auto 25%;
+}
 /* Quotes-section */
 .quotes-container{
     padding: 2rem 2rem 4rem 2rem;
