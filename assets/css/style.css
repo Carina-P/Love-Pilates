@@ -109,17 +109,7 @@ header{
 .pilates-mg{
     margin: auto 25%;
 }
-/* Quotes-section */
-.quotes-bg{
-    background-color: #e9ecef;
-    height: 50vh;
-} 
 
-.quotes-img{
-    height: 25vh;
-    margin: 30%;
-}
- 
 /* Classes-section */
 .classes-mg{
     margin: 0 1% 4%;
@@ -156,6 +146,21 @@ header{
 .opaque-bg{
     background: rgba(255,255,255,0.5);
     margin: 0;
+}
+
+/* Quotes-section */
+.quotes-bg{
+    background-color: #e9ecef;
+    height: 50vh;
+} 
+
+.quotes-img{
+    width: 60%;
+    margin: 10% 0 auto 20%;
+}
+.quotes-txt{
+    width: 60%;
+    margin: 10% 20% auto 5%;
 }
 
 /* Footer */
