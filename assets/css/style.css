@@ -55,7 +55,17 @@ footer,
 .btn--rose-light{
     color: #df2935;
     background-color: white;
-    border-color:#df2935;;
+    border-color:#df2935;
+}
+.icon-rose{
+    color: #df2935;
+    opacity: 1;
+}
+.icon-white{
+    color: #ffffff;
+}
+.icon-black{
+    color: #262730;
 }
 
 a:hover,
@@ -150,7 +160,7 @@ header{
 
 /* Quotes-section */
 .quotes-bg{
-    background-color: #e9ecef;
+    background-color: #ffffff;
     height: 50vh;
 } 
 
@@ -162,7 +172,12 @@ header{
     width: 60%;
     margin: 10% 20% auto 5%;
 }
-
+.carousel-indicators li{
+    background-color: #df2935;
+}
+.carousel a:hover{
+    background: #ffffff;
+}
 /* Footer */
 footer {
      color: #ffffff;
