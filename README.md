@@ -214,10 +214,10 @@ In this section, you should go over the different parts of your project, and des
 ## Testing
 
 All testing have been conducted **manually**.
-Testing was performed **regularly** in a circular manner during the development of the site and then **thorough** after all features was in place. 
+Testing was performed **regularly** in a iterative manner during the development of the site and then **thorough** after all features was in place. 
 Testing often after a small part of development means that it is easier to find and fix bugs and it is also a way to use the experience found in coming development.
 
-Description of the circular manner of developing and testing:
+Description of the iterative manner of developing and testing:
 1. The basic structure in html was put in place
     After each section completed - test was performed for mobile, tablet and desktop each
 2. First round of implementing with Bootstrap
@@ -231,9 +231,9 @@ Description of the circular manner of developing and testing:
 6. And so on...
 
 When all features was implemented the following tests was performed:
-- According to the **scenarios** as described below
 - Validated by [W3S Markup validation service](https://validator.w3.org/)
 - Validated by [W3s CSS validation service](https://jigsaw.w3.org/css-validator/)
+- According to the **scenarios** as described below
 
 ## Validation with W3S
 ### Markup Validation
