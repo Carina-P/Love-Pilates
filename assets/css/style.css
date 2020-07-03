@@ -13,6 +13,16 @@ footer,
     background-color: #e7b76f;
  }
 
+.banner{
+    height: 200px;
+    background-color: #e7b76f;
+}
+ .section-container{
+     height: 100vh;
+     padding-top: 100px;
+
+ }
+
  .background-color--white{
      background-color: #ffffff;
  }
@@ -83,11 +93,12 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .callout{
-    background: rgba(55,63,81,0.5);
-    color: #ffffff;
+    background: rgba(179, 200, 250, 0.0);
+    color: #262730;
 }
 
 .container-join-btn{
@@ -99,13 +110,15 @@ header{
     margin: auto 25%;
 }
 /* Quotes-section */
-.quotes-container{
-    padding: 2rem 2rem 4rem 2rem;
-}
-
 .quotes-bg{
     background-color: #e9ecef;
+    height: 50vh;
 } 
+
+.quotes-img{
+    height: 25vh;
+    margin: 30%;
+}
  
 /* Classes-section */
 .classes-mg{
