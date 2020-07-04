@@ -178,6 +178,9 @@ header{
 .carousel a:hover{
     background: #ffffff;
 }
+.hidden{
+    color: #ffffff;
+}
 /* Footer */
 footer {
      color: #ffffff;
@@ -197,8 +200,21 @@ footer {
 
 
 /* Otherwise the picture is cut horizontally in larger media */
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .hero-image{
         background-size:contain; 
     }
+}
+
+@media screen and (max-width: 576px){
+    .section-container{
+        height: 210vh;
+    }
+    
+    .pilates-mg{
+        margin: auto;
+    }
+    .quotes-txt{
+        width: 60%;
+        margin: auto;
 }
