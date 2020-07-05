@@ -74,6 +74,10 @@ button:hover{
     color:#ffffff;
 }
 
+.jumbotron-mg{
+    margin: auto 25%;
+}
+
 /* Header*/ 
 header{
     background-color: #e7b76f;
@@ -115,15 +119,20 @@ header{
     color: black;
 }
 
-/* About-section */
-.pilates-mg{
-    margin: auto 25%;
-}
-
+/* About-section */ 
 .hero-img-whatis{
     max-width: 100vh;
     height: 45vh;
     background-image: url("../images/pilates.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-img-studio{
+    max-width: 100vh;
+    height: 45vh;
+    background-image: url("../images/studio-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
