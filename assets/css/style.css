@@ -22,7 +22,7 @@ footer,
     background-color: #e7b76f;
 }
  .section-container{
-     min-height: 100vh;
+     min-height: 90vh;
      padding-top: 100px;
  }
 
@@ -107,7 +107,7 @@ header{
 
 /* Callout-section with hero-image */
 .hero-image{ 
-    height: 100vh;
+    height: 70vh;
     background-image: url("../images/hero-img.png");
     background-color: #ffffff;
    /* background-color: #e9ecef; */
@@ -118,8 +118,8 @@ header{
 }
 
 .callout{
-    background: rgba(179, 200, 250, 0.0);
-    color: #262730;
+    background: rgba(55, 63, 81, 0.5);
+    color: #ffffff;
 }
 
 .container-join-btn{
@@ -234,10 +234,13 @@ footer {
 }
 
 @media screen and (max-width: 576px){
-    .pilates-mg{
+    .jumbotron-mg{
         margin: auto;
     }
     .quotes-txt{
         width: 60%;
         margin: auto;
-}
+    }
+    body{
+        font-size: 1 rem;
+    }
