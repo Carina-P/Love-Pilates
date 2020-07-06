@@ -237,20 +237,23 @@ When all features was implemented the following tests was performed:
 ## Validation with W3S
 ### Markup Validation
 The following messages was received:
-- Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
+1. Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
     - Solved by removing extra hyphens in comments
-- Error: End tag br
+2. Error: End tag br
     - corrected </br> to <br>
-- Error: Attribute arial-label not allowed on element a at this point.
+3. Error: Attribute arial-label not allowed on element a at this point.
     - corrected my spelling to aria-label
-- Error: End tag div seen, but there were open elements.
+4. Error: End tag div seen, but there were open elements.
     -  corrected when I solved the blockquote-bug below
-- Error: Unclosed element blockquote.
+5. Error: Unclosed element blockquote.
     - corrected by putting the missing </blockquote> in place
-- Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.
+6. Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.
     - corrected the attribute
+7. Warning: The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
+    - **I did not change anything.** So this is perhaps not supported on all browsers. 
 
-Did the validation after correction the above and got: "Document checking completed. No errors or warnings to show."
+I corrected the code for 1 to 6 above but not 7. I took away the code causing warning no 7, did the validation again and got this message:
+"Document checking completed. No errors or warnings to show."
 
 Comment: It was stupid errors, that I wish I had not done, but I am happy that they where found.
 
