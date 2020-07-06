@@ -333,6 +333,8 @@ Checking these scenarios for mobile, tablet and desktop respectively
 7. When doing scenario number 2 I found out that several "arrow"-links in bottom of viewport-pages lead to wrong section. This was due to changing the order
 of some sections. 
     - was fixed
+8. Doing test in scenario number 4. Found out that the quotes did not fit in the iphone5 viewport. 
+    - Added @media that checked for viewports that was smaller in height than 700 px and in this case let the section have the length of minimum 700 px.
 ## Deployment
 Love Pilates was developed on GitPod, using git and GitHub to host the repository.
 
@@ -378,5 +380,7 @@ Most of the content is copied from [Pilates Via](https://pilatesvia.com/se/) and
     - [Pilates Via](https://pilatesvia.com/se/pilates-i-stockholm/)
     - [Pilates Center](https://www.pilates-center.se/)
 - My mentor Simen Daehlien, who, with lots of energy, enthusiasm and knowledge, inspired me and made me do much more than I first intended.
+He also gave me the tip about markdown-toc: making content list into links.
+- [byIlsa](https://github.com/byIlsa) and [Geomint](https://github.com/Geomint) for realy inspiring ReadMe-files.
 
 **Site for educational purposes only!**
