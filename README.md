@@ -6,7 +6,7 @@
 ### You can do workout from home guided by our skillful instructors. 
 
 ## Contents ##
----
+
 - [UX](#ux)
   * [Project Goals](#project-goals)
   * [Target Audience goals:](#target-audience-goals-)
@@ -30,8 +30,13 @@
   * [Languages](#languages)
   * [Tools and libraries](#tools-and-libraries)
 - [Testing](#testing)
+- [Validation with W3S](#validation-with-w3s)
+  * [Markup Validation](#markup-validation)
+  * [CSS Validation](#css-validation)
+- [Scenarios](#scenarios)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
+  * [Running Love Pilates locally](#running-love-pilates-locally)
 - [Credits](#credits)
   * [Content](#content)
   * [Media](#media)
@@ -250,10 +255,11 @@ The following messages was received:
 6. Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.
     - corrected the attribute
 7. Warning: The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
-    - **I did not change anything.** So this is perhaps not supported on all browsers. 
+    - **I decided not change anything.** So this is perhaps not supported on all browsers. But this is also not a crucial feature. The join-link 
+    is just "fake".
 
-I corrected the code for 1 to 6 above but not 7. I took away the code causing warning no 7, did the validation again and got this message:
-"Document checking completed. No errors or warnings to show."
+I corrected the code for no 1 to 6 above but not 7. I took away the code causing warning no 7, did the validation again and got this message:
+"Document checking completed. No errors or warnings to show." 
 
 Comment: It was stupid errors, that I wish I had not done, but I am happy that they where found.
 
@@ -267,15 +273,18 @@ Checking these scenarios for mobile, tablet and desktop respectively
 
 1. Navigating from menu in header:
     1. Check that clicking on logo leads to homepage
-    2. Check that clicking on Home goes to homepage
+    2. Check that clicking on To top goes to top of page
     3. Check that clicking on Sign Up leads to Sign up-form
     4. Check that clicking on Classes leads to the section about classes
-    5. Check that the choices in About us drop down leads to page informing that it is not implemented
-
+    5. Check that when you click on each choice in drop down-list of About Us you are linked to respectively:
+        - What is Pilates-section
+        - The Studio-section
+        - Our classes- section
+        - Quotes-selection
 2. Links in Callout
     1. At beginning of page callout-section over painted picture
-    1. Check that Sign Up-button leads to Sign Up-section
-    2. Check that Join class-button show a popover when clicked. And that popover disappears when clicking anywhere.
+    2. Check that Sign Up-button leads to Sign Up-section
+    3. Check that Join class-button show a modal where you can choose date to join class.
 
 3. Carousel
     1. Go to Quotes-part 
@@ -295,29 +304,29 @@ Checking these scenarios for mobile, tablet and desktop respectively
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
 6. Classes:
-    1. Got to the section with classes
+    1. Go to the section with classes
     2. Try to click all Read Me-buttons and check that modal with correct information appears
-    3. Try to click all Join class-buttons and check that you get the message that it is not implemented.
+    3. Try to click all Join class-buttons and check that you get a modal where you can choose a date.
 
 7. Links in footer  
     1. Go to footer
     2. Check that external links works and appears in new tab
 
 ## Bugs
-1. "Hero-image" was not looking good in different viewports. I tested in many ways before I decided a solution: 
+1. "Hero-image" was not looking good in different viewport-sizes. I tested in many ways before I decided a solution: 
     - Bacground-size contain for lager viewports (over 992px) and cover for the rest. In this way the whole girl is always shown.
 2. A stupid bug was that the same text was shown in all Modals but for different studio-classes:
     - The problem was that I had used the same id (and datatarget) for all. Also a stupid bug but easy to fix.
 3. Radio button-list in Sign up-form did not look good:
     - After a while I realized that I had to put <input> befor <label> if I wanted text after (instead of before) the litle circle.
 4. Carousel: 
-    - Took me a while to figure out how to make it look good with "two parts" in the content. 
+    - Took me a while to figure out how to make it look good with "two parts": photo and text. 
     - I also thought the indicators was interfering with the text. The only, and not a very good, solution that I found was to include a hidden text.
-5. A fixed navbar hides content: e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
+5. The fixed navbar hides content: e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
     - I gave each section a larger top-margin. 
     - And I also make navbar collaps, when clicking, in smaller viewports. 
 6. I got a comment from a tester that it is not obvious that the page has more information looking at the first part.
-    - A put an icon-link in the bottom of each viewport-lengt, to indicate that more information further down. The link also leads to next "viewport-page"
+    - A put an icon-link in the bottom of each "viewport-page", to indicate that more information further down. The link also leads to next "viewport-page"
  
 ## Deployment
 Love Pilates was developed on GitPod, using git and GitHub to host the repository.
@@ -363,6 +372,6 @@ Most of the content is copied from [Pilates Via](https://pilatesvia.com/se/) and
 - I received inspiration for this project from:
     - [Pilates Via](https://pilatesvia.com/se/pilates-i-stockholm/)
     - [Pilates Center](https://www.pilates-center.se/)
-- My mentor Simen Daehlien, who, with lots of energy, enthosiasm and knowledge, made me do much more.
+- My mentor Simen Daehlien, who, with lots of energy, enthusiasm and knowledge, inspired me and made me do much more than I first intended.
 
 **Site for educational purposes only!**
