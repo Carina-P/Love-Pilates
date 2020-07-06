@@ -1,22 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-.animation{
-    animation-delay: 10s;
-}
-/* General classes and ids*/
+/* General classes*/
 body{
     font-family: "Open Sans", sans-serif;
     color: #262730;
     scroll-behavior: smooth;
     font-size: 1.2rem;
-}
-
-footer,
-.background-color--sunny{
-    background-color: #e7b76f;
- }
-
+} 
 .banner{
     height: 200px;
     background-color: #e7b76f;
@@ -26,44 +17,50 @@ footer,
      padding-top: 100px;
  }
 
- .background-color--white{
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:  #e7b76f;
+    width: 40px;
+    margin-bottom: 40px;
+}
+a:hover,
+button:hover{
+    background: rgba(55,63,81,0.2);
+    color:#ffffff;
+}
+.jumbotron-mg{
+    margin: auto 25%;
+}
+ 
+/* Colors */
+footer,
+.background-color--sunny{
+    background-color: #e7b76f;
+ }
+
+.background-color--white{
      background-color: #ffffff;
  }
   
 .color--white{
      color: #ffffff;
  }
- 
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-}
 
-.block-divider--sunny {
-    background-color:  #e7b76f;
-}
-
-.block-divider--rose{
-    background-color:  #df2935;
-}
- 
-.block-divider--short {
-    width: 40px;
-    margin-bottom: 40px;
-}
-
+ /* buttons */
 .btn--rose{
     color: white;
     background-color: #df2935;
     border-color: white;
 }
-
 .btn--rose-light{
     color: #df2935;
     background-color: white;
     border-color:#df2935;
 }
+
+/* icons */
 .icon-rose{
     color: #df2935;
     opacity: 1;
@@ -73,18 +70,8 @@ footer,
 }
 .icon-black{
     color: #262730;
-}
-
-a:hover,
-button:hover{
-    background: rgba(55,63,81,0.2);
-    color:#ffffff;
-}
-
-.jumbotron-mg{
-    margin: auto 25%;
-}
-
+} 
+ 
 /* Header*/ 
 header{
     background-color: #e7b76f;
@@ -92,7 +79,6 @@ header{
 }
 #logo{
     color: #ffffff;
-    /*color: #262730;*/ 
     border-style: solid;
     border-color: #262730;
 }
@@ -102,15 +88,13 @@ header{
 }
 .nav-link {
     color: #ffffff;
-}
-
-
+} 
+ 
 /* Callout-section with hero-image */
 .hero-image{ 
     height: 70vh;
     background-image: url("../images/hero-img.png");
     background-color: #ffffff;
-   /* background-color: #e9ecef; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,23 +113,13 @@ header{
     to{
         transform: scale(1.0);
     }
-}
-
-#cover-text, #cover-text h2 {
-    color: #ffffff;
-}
-
-
+} 
 .callout{
     background: rgba(55, 63, 81, 0.5);
     color: #ffffff;
-}
+} 
 
-.container-join-btn{
-    color: black;
-}
-
-/* About-section */ 
+/* What is pilates-section */ 
 .hero-img-whatis{
     max-width: 100vh;
     height: 45vh;
@@ -155,6 +129,7 @@ header{
     background-position: center;
 }
 
+/* The Studio-section */
 .hero-img-studio{
     max-width: 100vh;
     height: 45vh;
@@ -167,8 +142,7 @@ header{
 /* Classes-section */
 .classes-mg{
     margin: 0 1% 4%;
-}
-
+} 
 .hero-img-classes{
     height: 20vh;
     background-color: #e8e8e8;
@@ -177,28 +151,22 @@ header{
     background-size: cover;
     border: solid 1px #262730;
     padding: 2px;
-} 
-
+}  
 .hero-img-ess{
   background-image: url("../images/hero-img-ess.png");  
-}
-
+} 
 .hero-img-pro{
   background-image: url("../images/hero-img-pro.png");  
-}
-
+} 
 .hero-img-mam{
   background-image: url("../images/hero-img-mam.png");  
-}
-
+} 
 .hero-img-pre{
   background-image: url("../images/hero-img-pre.png");  
-}
-
+} 
 .hero-img-vin{
   background-image: url("../images/hero-img-vin.png");  
-}
-
+} 
 .opaque-bg{
     background: rgba(255,255,255,0.5);
     margin: 0;
@@ -208,8 +176,7 @@ header{
 .quotes-bg{
     background-color: #ffffff;
     height: 50vh;
-} 
-
+}  
 .quotes-img{
     width: 60%;
     margin: 10% 0 auto 20%;
@@ -227,24 +194,14 @@ header{
 .hidden{
     color: #ffffff;
 }
+
 /* Footer */
 footer {
      color: #ffffff;
  }
- /*
- footer h5{
-     color:#ffffff;
- }
- */
-.icon-white{
-    color: #ffffff;
-}
-.icon-black{
-    color: #262730;
-}
 
 
-
+ /** Media */
 /* Otherwise the picture is cut horizontally in larger media */
 @media screen and (min-width: 992px){
     .hero-image{
