@@ -281,34 +281,37 @@ Checking these scenarios for mobile, tablet and desktop respectively
         - The Studio-section
         - Our classes- section
         - Quotes-selection
-2. Links in Callout
+2. Navigate with arrows in bottom of every "viewport-page":
+    1. Start in top
+    2. For each section ("viewport-page") check that when clicking on arrow in bottom: Next section is showing. 
+3. Links in Callout
     1. At beginning of page callout-section over painted picture
     2. Check that Sign Up-button leads to Sign Up-section
     3. Check that Join class-button show a modal where you can choose date to join class.
 
-3. Carousel
+4. Carousel
     1. Go to Quotes-part 
     2. Check that the carousel is moving correctly
     3. Check that clicking on the arrow to the right makes the carousel show next content
     4. Check that clicking on the arrow to the left makes the carousel show previous content
 
-4. Read more about Pilates
+5. Read more about Pilates
     1. Go to section "What is Pilates?"
     2. Check that the button Read More goes to external wikipedia-page about Pilates. 
     3. Check that the page is opened in a new tab.
 
-5. Contact form:
+6. Contact form:
     1. Go to the Sign Up-section
     2. Try to submit the empty form and verify that an error message about the required fields appears.
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-6. Classes:
+7. Classes:
     1. Go to the section with classes
     2. Try to click all Read Me-buttons and check that modal with correct information appears
     3. Try to click all Join class-buttons and check that you get a modal where you can choose a date.
 
-7. Links in footer  
+8. Links in footer  
     1. Go to footer
     2. Check that external links works and appears in new tab
 
@@ -327,7 +330,9 @@ Checking these scenarios for mobile, tablet and desktop respectively
     - And I also make navbar collaps, when clicking, in smaller viewports. 
 6. I got a comment from a tester that it is not obvious that the page has more information looking at the first part.
     - A put an icon-link in the bottom of each "viewport-page", to indicate that more information further down. The link also leads to next "viewport-page"
- 
+7. When doing scenario number 2 I found out that several "arrow"-links in bottom of viewport-pages lead to wrong section. This was due to changing the order
+of some sections. 
+    - was fixed
 ## Deployment
 Love Pilates was developed on GitPod, using git and GitHub to host the repository.
 
