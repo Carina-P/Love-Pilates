@@ -77,7 +77,7 @@ Regular Clients:
 - As a user I want to **sign up for membership** 
 - As a user I want a **link to join a online class**
 
-### How the features is prioritized:  
+### How the features are prioritized:  
 1. **Sign up for membership** - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again.
 2. **Link to the digital class** - important for regular clients and probably what they use the site to most of the time 
 3. **The classes schedule** - important for regular clients and probably what they use the site to most of the time 
@@ -238,6 +238,7 @@ When all features was implemented the following tests was performed:
 - Validated by [W3S Markup validation service](https://validator.w3.org/)
 - Validated by [W3s CSS validation service](https://jigsaw.w3.org/css-validator/)
 - According to the **scenarios** as described below
+- The deployed version was tested
 
 ## Validation with W3S
 ### Markup Validation
@@ -335,6 +336,10 @@ of some sections.
     - was fixed
 8. Doing test in scenario number 4. Found out that the quotes did not fit in the iphone5 viewport. 
     - Added @media that checked for viewports that was smaller in height than 700 px and in this case let the section have the length of minimum 700 px.
+9. Commit:
+    - It took me a while to understand what it meant to commit often. But I think I got better and better.
+
+
 ## Deployment
 Love Pilates was developed on GitPod, using git and GitHub to host the repository.
 
@@ -381,6 +386,6 @@ Most of the content is copied from [Pilates Via](https://pilatesvia.com/se/) and
     - [Pilates Center](https://www.pilates-center.se/)
 - My mentor Simen Daehlien, who, with lots of energy, enthusiasm and knowledge, inspired me and made me do much more than I first intended.
 He also gave me the tip about markdown-toc: making content list into links.
-- [byIlsa](https://github.com/byIlsa) and [Geomint](https://github.com/Geomint) for realy inspiring ReadMe-files.
+- [byIlsa](https://github.com/byIlsa) and [Geomint](https://github.com/Geomint) for realy inspiring ReadMe-files and also inspiring sites.
 
 **Site for educational purposes only!**
