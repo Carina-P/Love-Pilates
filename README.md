@@ -322,7 +322,7 @@ Checking these scenarios for mobile, tablet and desktop respectively
 2. A stupid bug was that the same text was shown in all Modals but for different studio-classes:
     - The problem was that I had used the same id (and datatarget) for all. Also a stupid bug but easy to fix.
 3. Radio button-list in Sign up-form did not look good:
-    - After a while I realized that I had to put <input> befor <label> if I wanted text after (instead of before) the litle circle.
+    - After a while I realized that I had to put input before label if I wanted text after (instead of before) the litle circle.
 4. Carousel: 
     - Took me a while to figure out how to make it look good with "two parts": photo and text. 
     - I also thought the indicators was interfering with the text. The only, and not a very good, solution that I found was to include a hidden text.
@@ -353,7 +353,8 @@ When deploying Love Pilates using GitHub Pages the following steps were made:
 * Scrolled down to the **GitHub Pages** area. 
 * Selected **'Master Branch'** from the **'Source'** dropdown menu.
 * Clicked to confirm my selection.
-* Love Pilates now live on GitHub Pages.
+* Love Pilates now live on GitHub Pages:
+ [Love Pilates](https://carina-p.github.io/Love-Pilates/)
 
 ### Running Love Pilates locally
 
