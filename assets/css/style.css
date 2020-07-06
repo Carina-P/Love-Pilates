@@ -115,7 +115,26 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 100px;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+/* Took this coder from Love Running-class */
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
 
 .callout{
     background: rgba(55, 63, 81, 0.5);
