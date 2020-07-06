@@ -70,18 +70,18 @@ Regular Clients:
 - As a user I want to know **what the different class do** and find the right class for me.
 - As a user I want to find **contact information** to the studio so I can ask my questions.
 - As a user I want to **sign up for membership** 
-- As a user I want a **link to join a online class** I have choosen.
+- As a user I want a **link to join a online class**
 
-### How the features is prioritized: 
-1. **Quotes and Photos** - important for attracting potential clients
+### How the features is prioritized:  
 1. **Sign up for membership** - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again.
 2. **Link to the digital class** - important for regular clients and probably what they use the site to most of the time 
 3. **The classes schedule** - important for regular clients and probably what they use the site to most of the time 
-4. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
-5. **What is Pilates** - information for potential clients
-5. **Information about the instructors** - to show that this is a professional studio
-6. **Contact information** - to ask questions 
-7. **Information about the studio** - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
+4. **Quotes and Photos** - important for attracting potential clients
+5. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
+6. **What is Pilates** - information for potential clients
+7. **Information about the instructors** - to show that this is a professional studio
+8. **Contact information** - to ask questions 
+9. **Information about the studio** - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
 
 ### How the features were grouped
 - **Header**: Title and navigation
@@ -120,12 +120,16 @@ I have made wireframes for three pages and for each page I have frames for each 
 I checked wireframes with users and especially younger preferred all information in one page since it is a moderate amount of features: they use mobile device and do not want to click a lot.
 One user suggested to use a carousel for quotes - takes less space. I tried that and thougt it was appealing.
 
+This change also made me change the order of features (sections) to satisfy what the user told me.
+
 ## Design Choices
 The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
 The feeling is sensible, calm but also stubborn and strong.
-I looked around different pilates sites to find inspiration and desided that I wanted a hero-image to be a drawn picture - for me it felt more modern. I found a picture that I thought was inspiring, 
-found above. And the picture inspired to the colors I have choosen to use. 
+I looked around different pilates sites to find inspiration and desided that I wanted a hero-image to be a drawn picture - for me it felt more modern. I found a picture that I thought was inspiring 
+(found above). And the picture inspired to the colors I have choosen to use. 
 I think grey is a cool and neutral color. I want to use that and add some colors to make the site more positive and draw attention to it.
+
+Comment: After testing and talking to users we decided to use more white than grey.
 
 ### Fonts
 I have choosen **Open Sans** that I think is a modern, friendly, easy to read font.
@@ -154,37 +158,34 @@ I still use above colors but it looks like this instead:
 
 
 ## Features
-<!--->
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-<!--> 
 ### Existing Features
 - **Header** fixed at the top of the viewport, with:
     - **logo** and    
-    - **navbar** leading to home, sign up and classes, with:
+    - **navbar** including To top, About us (with What is Pilates, The Studio, Our Instructors and Quotes), Our Clases an Sign Up
 - **Callout**-section to caught attention:
     - Inspirational *hero image*
-    - Link to **sign up**
+    - Link to **Sign up**
     - Link to **join class**
+- **What is Pilates?**-section
+- **The studio**-section with information about the studio
+- **Our Instructors**- section with photos and information about instructors
 - **Quotes**-section with information what others think about the studio and Pilates, with:
     - **Carousel** with photo and quote
-- **What is Pilates?**-sectio, with,
-    - **button** to external **link** with more information
-- **Sign-up**-section, with:
-    - **inputform**: **validation** on email. This is not a complete feature since nothing happens when you press Sign Up.
 - **Classes**-section, with:
     - **Photos** and **information** about classes
     - Every class has:
         - Read More-**button** with text about the class given in **modal**.
         - Join class-**button** with **popover** informating that it is not implemented.
+- **Sign-up**-section, with:
+    - **inputform**: **validation** on name and email. This is not a complete feature since nothing happens when you press Sign Up.
 - **Footer**, with:
-    - Short information about studio and **address**
+    - **Address** to the studio
     - **Contact** information with **icons**
     - **External links** in the form of **icons**
  
 ### Features Left to Implement
-- About Us: More information about the studio and instructors
-- The information in sign up-form is not taken care of - no information is sent
-- Join Classes has no link
+- The sign up-form does not actually send information anywhere
+- Join Classes is a "fake" link
 
 ## Technologies Used
 ### Languages
@@ -193,15 +194,13 @@ In this section, you should go over the different parts of your project, and des
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
     * For styling the site
 * [JavaScript](https://www.javascript.com/)
-    * Used only for popover
+    * Used for making the navbar collaps when clicking - its hard to see otherwise, especially on small viewports
 
 ### Tools and libraries
 * [Git](https://git-scm.com/)
     * For version control and storing the code
 * [Bootstrap](https://getbootstrap.com/)
     * A helpful HTML, CSS (and JS) library
-* [Popper](https://popper.js.org/)
-    *   In this project only for popover
 * [Font-Awesome](https://fontawesome.com/icons?d=gallery)
     * From this library I picked the icons
 * [Google fonts](https://fonts.google.com/)
@@ -215,7 +214,7 @@ In this section, you should go over the different parts of your project, and des
 
 All testing have been conducted **manually**.
 Testing was performed **regularly** in a iterative manner during the development of the site and then **thorough** after all features was in place. 
-Testing often after a small part of development means that it is easier to find and fix bugs and it is also a way to use the experience found in coming development.
+Testing often after a small part of development means that it is easier to find and fix bugs and it is also a way to use experience in coming development.
 
 Description of the iterative manner of developing and testing:
 1. The basic structure in html was put in place
@@ -304,32 +303,31 @@ Checking these scenarios for mobile, tablet and desktop respectively
 ## Bugs
 1. "Hero-image" was not looking good in different viewports. I tested in many ways before I decided a solution: 
     - Bacground-size contain for lager viewports (over 992px) and cover for the rest. In this way the whole girl is always shown.
-2. A stupid bug was that the same text was shown in all Modals but for different classes:
+2. A stupid bug was that the same text was shown in all Modals but for different studio-classes:
     - The problem was that I had used the same id (and datatarget) for all. Also a stupid bug but easy to fix.
 3. Radio button-list in Sign up-form did not look good:
     - After a while I realized that I had to put <input> befor <label> if I wanted text after (instead of before) the litle circle.
 4. Carousel: 
-    - Took me a while to figure out how to make it look good with "two parts" in the content. The code I copied from Bootstrap was intended
-    one type of content only.
-5. Header hides the content under e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
-    - I realize that I can give each container a larger top-margin. Put since the header is 92px I thought it would take to much space and a made 
-    the navbar a little optique insteda. I am not perfectly happy about that.
-6. Wanted something to show that the Join Class-buttons still is not implemented and I was curious about popover. The text in button suddenly did not show:
-Found out that text was inherited and this parents text was in white and button-background was white. This took me a while to solve especially since I did 
-not understand tips in Bootstrap that referred to JavaScript that I do not know yet. In the end I solved it by putting the button in a container. And the container I gave the color Raisin Black.
+    - Took me a while to figure out how to make it look good with "two parts" in the content. 
+    - I also thought the indicators was interfering with the text. The only, and not a very good, solution that I found was to include a hidden text.
+5. A fixed navbar hides content: e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
+    - I gave each section a larger top-margin. 
+    - And I also make navbar collaps, when clicking, in smaller viewports. 
+6. I got a comment from a tester that it is not obvious that the page has more information looking at the first part.
+    - A put an icon-link in the bottom of each viewport-lengt, to indicate that more information further down. The link also leads to next "viewport-page"
  
 ## Deployment
 Love Pilates was developed on GitPod, using git and GitHub to host the repository.
 
 When deploying Love Pilates using GitHub Pages the following steps were made:
 
-* Opened up <strong>GitHub</strong> in the browser.
+* Opened up **GitHub** in the browser.
 * Signed in using username and password.
-* Selected my <strong>repositories</strong>.
-* Navigated to <strong>'/Carina-P/Love-Pilates'</strong>.
-* In the top navigation clicked <strong>'settings'</strong>.
-* Scrolled down to the <strong>GitHub Pages</strong> area. 
-* Selected <strong>'Master Branch'</strong> from the <strong>'Source'</strong> dropdown menu.
+* Selected my **repositories**.
+* Navigated to **'/Carina-P/Love-Pilates'**.
+* In the top navigation clicked **'settings'**.
+* Scrolled down to the **GitHub Pages** area. 
+* Selected **'Master Branch'** from the **'Source'** dropdown menu.
 * Clicked to confirm my selection.
 * Love Pilates now live on GitHub Pages.
 
@@ -337,32 +335,21 @@ When deploying Love Pilates using GitHub Pages the following steps were made:
 
 Cloning Love Pilates from GitHub:
 
-* Navigate to <strong>'/Carina-P/Love-Pilates'</strong>.
-* Click the green <strong>'Clone or Download'</strong> button.
-* Copy the <strong>url</strong> in the dropdown box.
-* Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
+* Navigate to **'/Carina-P/Love-Pilates'**.
+* Click the green **'Clone or Download'** button.
+* Copy the **url** in the dropdown box.
+* Using your favourite **IDE** open up your preferred **terminal**.
 * Navigate to your desired file location. 
-* Copy the following <strong>code</strong> and input it into your terminal to clone Love Pilates.
+* Copy the following **code** and input it into your terminal to clone Love Pilates.
  ```git
   git clone https://github.com/Carina-P/love-pilates.git
    ```
-<!-->
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-<!------>
 ## Credits
 
 ### Content
-<!---
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-<!---->
+Most of the content is copied from [Pilates Via](https://pilatesvia.com/se/) and translated from swedish to english.
+
 ### Media
 - The photos used in this site were obtained from:
     - [shutterstock](https://www.shutterstock.com/sv/home)
@@ -373,3 +360,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 - I received inspiration for this project from:
     - [Pilates Via](https://pilatesvia.com/se/pilates-i-stockholm/)
     - [Pilates Center](https://www.pilates-center.se/)
+- My mentor Simen Daehlien, who, with lots of energy, enthosiasm and knowledge, made me do much more.
+
+**Site for educational purposes only!**
