@@ -26,6 +26,10 @@ footer,
      background-color: #ffffff;
  }
  
+
+.color--white{
+     color: #ffffff;
+ }
  
 .block-divider {
     width: 75px;
