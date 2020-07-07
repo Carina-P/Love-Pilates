@@ -70,7 +70,7 @@ The studio is interested in attracting and retaining members during unusual time
 All clients:
 - As a user I want to know more about the **instructors**
 - As a user I want to see at **what time different classes** are.
-- As a user I want to know **what the different class do** and find the right class for me.
+- As a user I want to know **what the different class do** and find the right class for me. [Implementation](wireframes/implementation-classes.jpg)
 - As a user I want to find **contact information** to the studio so I can ask my questions.
 - As a user I want a **link to join a online class**
 - As a user I want to see **pictures and photos**
@@ -84,7 +84,7 @@ But only important once for each client. Put the sign up late but a clear link e
 2. **Link to the digital class** - important for regular clients and probably what they use the site to most of the time. Have a link early in the page.
 3. **The classes schedule** - important for regular clients and probably what they use the site to most of the time 
 4. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
-5. **What is Pilates** - information for potential clients
+5. **What is Pilates** - information for potential clients - **Comment** This is near the top in the flow since it is natural to have this information early
 6. **Information about the studio** - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
 7. **Information about the instructors** - to show that this is a professional studio
 8. **Quotes and Photos** - to attract potential clients and making regular clients feel connected 
