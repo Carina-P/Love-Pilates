@@ -68,15 +68,15 @@ The studio is interested in attracting and retaining members during unusual time
 
 ### User Stories:
 All clients:
-- As a user I want to know more about the **instructors**
-- As a user I want to see at **what time different classes** are.
-- As a user I want to know **what the different class do** and find the right class for me. [Implementation](wireframes/implementation-classes.jpg)
-- As a user I want to find **contact information** to the studio so I can ask my questions.
-- As a user I want a **link to join a online class**
-- As a user I want to see **pictures and photos**
+- As a user I want to know more about the **instructors**. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-instructors.jpg)
+- As a user I want to see at **what time different classes** are. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-classes-times.jpg)
+- As a user I want to know **what the different class do** and find the right class for me. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-classes.jpg)
+- As a user I want to find **contact information** to the studio so I can ask my questions.  [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-contact.jpg)
+- As a user I want a **link to join a online class**. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-join.jpg)
+- As a user I want **quotes and photos**. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-quotes.jpg)
 Especially for potential clients:
-- As a user I want to get a **"feeling for the studio"**, what it offers, the atmosphere and how professionel they are. 
-- As a user I want to **sign up for membership** 
+- As a user I want to get a **"feeling for the studio"**, what it offers, the atmosphere and how professionel they are. - Se all implementations.
+- As a user I want to **sign up for membership**. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-signup.jpg)
 
 ### How the features are prioritized:  
 1. **Sign up for membership** - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again. 
