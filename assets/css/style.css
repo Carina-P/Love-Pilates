@@ -75,7 +75,8 @@ footer,
 /* Header*/ 
 header{
     background-color: #e7b76f;
-    font-weight: bold; 
+    font-weight: bold;
+    font-size: 1rem;
 }
 #logo{
     color: #ffffff;
@@ -218,7 +219,7 @@ footer {
         margin: auto;
     }
     body{
-        font-size: 1 rem;
+        font-size: 1rem;
     }
 }
 @media screen and (max-height: 700px) {
