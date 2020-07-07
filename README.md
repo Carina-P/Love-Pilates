@@ -34,7 +34,7 @@
   * [Markup Validation](#markup-validation)
   * [CSS Validation](#css-validation)
 - [Scenarios](#scenarios)
-- [Bugs](#bugs)
+- [Some of the bugs](#bugs)
 - [Deployment](#deployment)
   * [Running Love Pilates locally](#running-love-pilates-locally)
 - [Credits](#credits)
@@ -128,13 +128,11 @@ One user suggested to use a carousel for quotes - takes less space. I tried that
 This change also made me change the order of features (sections) to satisfy what the user told me.
 
 ## Design Choices
-The theme of this sight is Pilates, working out in a smart way, strengthening the body never hurting it. 
-The feeling is sensible, calm but also stubborn and strong.
 I looked around different pilates sites to find inspiration and desided that I wanted a hero-image to be a drawn picture - for me it felt more modern. I found a picture that I thought was inspiring 
 (found above). And the picture inspired to the colors I have choosen to use. 
 I think grey is a cool and neutral color. I want to use that and add some colors to make the site more positive and draw attention to it.
 
-Comment: After testing and talking to users we decided to use more white than grey.
+Comment: After testing and talking to users I decided to use more white than grey.
 
 ### Fonts
 I have choosen **Open Sans** that I think is a modern, friendly, easy to read font.
@@ -316,27 +314,28 @@ Checking these scenarios for mobile, tablet and desktop respectively
     1. Go to footer
     2. Check that external links works and appears in new tab
 
-## Bugs
+## Some of the bugs
 1. "Hero-image" was not looking good in different viewport-sizes. I tested in many ways before I decided a solution: 
     - Bacground-size contain for lager viewports (over 992px) and cover for the rest. In this way the whole girl is always shown.
 2. A stupid bug was that the same text was shown in all Modals but for different studio-classes:
     - The problem was that I had used the same id (and datatarget) for all. Also a stupid bug but easy to fix.
 3. Radio button-list in Sign up-form did not look good:
-    - After a while I realized that I had to put input before label if I wanted text after (instead of before) the litle circle.
+    - After a while I realized that I had to put input before label if I wanted text after (instead of before) the little circle.
 4. Carousel: 
-    - Took me a while to figure out how to make it look good with "two parts": photo and text. 
+    - I copied code from bootstrap and it took me a while to figure out how to make it look good with "two parts": photo and text. 
     - I also thought the indicators was interfering with the text. The only, and not a very good, solution that I found was to include a hidden text.
 5. The fixed navbar hides content: e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
     - I gave each section a larger top-margin. 
     - And I also make navbar collaps, when clicking, in smaller viewports. 
-6. I got a comment from a tester that it is not obvious that the page has more information looking at the first part.
-    - A put an icon-link in the bottom of each "viewport-page", to indicate that more information further down. The link also leads to next "viewport-page"
+6. I got a comment from a tester that it is not obvious that the page has more information whe looking at the first part of the page.
+    - A put an icon-link, in the form of an arrow, in the bottom of each "viewport-page", to indicate that more information further down. The link also leads to next "viewport-page"
 7. When doing scenario number 2 I found out that several "arrow"-links in bottom of viewport-pages lead to wrong section. This was due to changing the order
 of some sections. 
-    - was fixed
+    - fixed
 8. Doing test in scenario number 4. Found out that the quotes did not fit in the iphone5 viewport. 
     - Added @media that checked for viewports that was smaller in height than 700 px and in this case let the section have the length of minimum 700 px.
-9. Commit:
+9. After comments from user I removed the drop-down-list in menu
+10. Commit:
     - It took me a while to understand what it meant to commit often. But I think I got better and better.
 
 
@@ -373,7 +372,7 @@ Cloning Love Pilates from GitHub:
 ## Credits
 
 ### Content
-Most of the content is copied from [Pilates Via](https://pilatesvia.com/se/) and translated from swedish to english.
+Most of the content is copied from or inspired from [Pilates Via](https://pilatesvia.com/se/) and translated from swedish to english.
 
 ### Media
 - The photos used in this site were obtained from:
@@ -385,8 +384,8 @@ Most of the content is copied from [Pilates Via](https://pilatesvia.com/se/) and
 - I received inspiration for this project from:
     - [Pilates Via](https://pilatesvia.com/se/pilates-i-stockholm/)
     - [Pilates Center](https://www.pilates-center.se/)
-- My mentor Simen Daehlien, who, with lots of energy, enthusiasm and knowledge, inspired me and made me do much more than I first intended.
+- My mentor Simen Daehlien, who, with lots of energy, enthusiasm and knowledge, inspired me to learn more and do more than I first intended.
 He also gave me the tip about markdown-toc: making content list into links.
-- [byIlsa](https://github.com/byIlsa) and [Geomint](https://github.com/Geomint) for realy inspiring ReadMe-files and also inspiring sites.
+- [byIlsa](https://github.com/byIlsa) and [Geomint](https://github.com/Geomint) for inspiring ReadMe-files and also inspiring sites.
 
 **Site for educational purposes only!**
