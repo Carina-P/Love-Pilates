@@ -67,26 +67,29 @@ The studio is interested in attracting and retaining members during unusual time
 - **Showcase photo** of people exercising in the studio. This is to remind people that there also is a studio to go to if they want to.
 
 ### User Stories:
-Regular Clients:
-- As a user I want to get a **"feeling for the studio"**, what it offers, the atmosphere and how professionel they are. 
-- As a user I want to see **pictures and photos**
-- As a user I want to know more about the **instructors**.
+All clients:
+- As a user I want to know more about the **instructors**
 - As a user I want to see at **what time different classes** are.
 - As a user I want to know **what the different class do** and find the right class for me.
 - As a user I want to find **contact information** to the studio so I can ask my questions.
-- As a user I want to **sign up for membership** 
 - As a user I want a **link to join a online class**
+- As a user I want to see **pictures and photos**
+Especially for potential clients:
+- As a user I want to get a **"feeling for the studio"**, what it offers, the atmosphere and how professionel they are. 
+- As a user I want to **sign up for membership** 
 
 ### How the features are prioritized:  
-1. **Sign up for membership** - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again.
-2. **Link to the digital class** - important for regular clients and probably what they use the site to most of the time 
+1. **Sign up for membership** - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again. 
+But only important once for each client. Put the sign up late but a clear link early in the page.
+2. **Link to the digital class** - important for regular clients and probably what they use the site to most of the time. Have a link early in the page.
 3. **The classes schedule** - important for regular clients and probably what they use the site to most of the time 
-4. **Quotes and Photos** - important for attracting potential clients
-5. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
-6. **What is Pilates** - information for potential clients
+4. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
+5. **What is Pilates** - information for potential clients
+6. **Information about the studio** - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
 7. **Information about the instructors** - to show that this is a professional studio
-8. **Contact information** - to ask questions 
-9. **Information about the studio** - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
+8. **Quotes and Photos** - to attract potential clients and making regular clients feel connected 
+9. **Contact information** - to ask questions 
+
 
 ### How the features were grouped
 - **Header**: Title and navigation
