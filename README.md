@@ -266,8 +266,8 @@ I corrected the code for no 1 to 6 above but not 7. I took away the code causing
 Comment: It was stupid errors, that I wish I had not done, but I am happy that they where found.
 
 ### CSS Validation
-Got a "Congratulations! No errors were found" but with a warning: "Imported styles are not reviewed for direct input or file upload". And this is reffering to the import of fonts and 
-I decided that I could trust Google font that I imported from.
+Got a "Congratulations! No errors were found" but with a warning: "Imported styles are not reviewed for direct input or file upload".
+I validated: https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap and received another "Congratulations! No errors were found"
 
 ## Scenarios
 
