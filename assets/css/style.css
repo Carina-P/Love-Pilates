@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 /* General classes*/
+html{
+   scroll-behavior: smooth;
+   font-size: 62,5%; 
+}
 body{
     font-family: "Open Sans", sans-serif;
-    color: #262730;
-    scroll-behavior: smooth;
+    color: #262730; 
     font-size: 1.2rem;
 } 
 .banner{
