@@ -100,11 +100,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    margin-bottom: 100px; 
 }
 
 /* Took this coder from Love Running-class */
