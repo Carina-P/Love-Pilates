@@ -9,7 +9,7 @@ html{
 body{
     font-family: "Open Sans", sans-serif;
     color: #262730; 
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 } 
 .banner{
     height: 200px;
@@ -223,10 +223,14 @@ footer {
         width: 60%;
         margin: auto;
     }
+}
+
+@media screen and (max-width: 768px){
     body{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
+
 @media screen and (max-height: 700px) {
     .section-container{
      min-height: 700px;
