@@ -211,14 +211,8 @@ body{
         width: 60%;
         margin: auto;
     }
-}
-
-@media screen and (max-width: 768px){
-    body{
-        font-size: 1.2rem;
-    }
-}
-
+} 
+ 
 /* When viewport has a small height - let every section take at least the whole viewport-height otherwise it look strange*/
 @media screen and (max-height: 700px) {
     .section-container{
