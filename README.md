@@ -259,6 +259,10 @@ The following messages was received:
 7. Warning: The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
     - **I decided not change anything.** So this is perhaps not supported on all browsers. But this is also not a crucial feature. The join-link 
     is just "fake".
+8. Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+    - I added an h2 to the "inbetween-sections"
+9. Warning: Possible misuse of aria-label.
+    - Used aria-label for prev-icon and next-icon in carousel in quotes-section. Changed to aria-hidden as in code example in bootstrap.
 
 I corrected the code for no 1 to 6 above but not 7. I took away the code causing warning no 7, did the validation again and got this message:
 "Document checking completed. No errors or warnings to show." 
