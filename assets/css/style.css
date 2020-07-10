@@ -79,6 +79,7 @@ body{
     color: #ffffff;
     border-style: solid;
     border-color: #262730;
+    font-size: 2rem;
 }
 .navbar-brand{
     padding-right: .3rem;
