@@ -12,33 +12,27 @@ body{
     font-size: 1.4rem;
 } 
 .banner{
-    height: 200px;
+    height: 20rem;
     background-color: #e7b76f;
 }
  .section-container{
      min-height: 90vh;
-     padding-top: 100px;
+     padding-top: 10rem;
  }
 
 .block-divider {
-    height: 5px;
+    height: 0.5rem;
     border: 0;
     background-color:  #e7b76f;
-    width: 40px;
-    margin-bottom: 40px;
-}
-/*
-a:hover,
-button:hover{
-    background: rgba(55,63,81,0.2);
-    color:#ffffff;
-}*/
+    width: 4rem;
+    margin-bottom: 4rem;
+} 
 .jumbotron-mg{
     margin: auto 25%;
 }
  
 /* Colors */
-footer,
+foote r,
 .background-color--sunny{
     background-color: #e7b76f;
  }
@@ -92,8 +86,8 @@ header{
     border-color: #262730;
 }
 .navbar-brand{
-    padding-right: .3125rem;
-    padding-left: .3125rem;
+    padding-right: .3rem;
+    padding-left: .3rem;
 }
 .nav-link {
     color: #ffffff;
@@ -111,7 +105,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px;  
+    margin-bottom: 10rem;  
 } 
 .callout{
     background: rgba(55, 63, 81, 0.5);
@@ -152,8 +146,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid 1px #262730;
-    padding: 2px;
+    border: solid 0.1rem #262730;
+    padding: 0.2rem;
 }  
 .hero-img-ess{
   background-image: url("../images/hero-img-ess.png");  
