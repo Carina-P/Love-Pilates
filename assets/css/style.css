@@ -27,11 +27,12 @@ body{
     width: 40px;
     margin-bottom: 40px;
 }
+/*
 a:hover,
 button:hover{
     background: rgba(55,63,81,0.2);
     color:#ffffff;
-}
+}*/
 .jumbotron-mg{
     margin: auto 25%;
 }
@@ -60,6 +61,12 @@ footer,
     color: #df2935;
     background-color: white;
     border-color:#df2935;
+}
+
+.btn--rose:hover,
+.btn--rose-light:hover{
+    background: #373f51;
+    color:#ffffff;
 }
 
 /* icons */
