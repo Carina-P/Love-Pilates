@@ -98,6 +98,7 @@ header{
 .nav-link {
     color: #ffffff;
 } 
+#logo:hover,
 .nav-link:hover{
     color:#262730;
 }
