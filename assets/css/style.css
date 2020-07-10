@@ -88,6 +88,9 @@ body{
 .nav-link {
     color: #ffffff;
 } 
+.navbar-toggler{
+    font-size: 2rem;
+}
 #logo:hover,
 .nav-link:hover{
     color:#262730;
