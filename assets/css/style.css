@@ -98,6 +98,9 @@ header{
 .nav-link {
     color: #ffffff;
 } 
+.nav-link:hover{
+    color:#262730;
+}
  
 /* Callout-section with hero-image */
 .hero-image{ 
