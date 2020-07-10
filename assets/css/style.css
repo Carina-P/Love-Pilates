@@ -111,6 +111,7 @@ body{
 .fa-arrow-down:hover{
     transform: scale(1.5);
 }
+
 /* What is pilates-section */ 
 #hero-img-whatis{
     max-width: 100vh;
@@ -119,18 +120,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-/* The Studio-section */
-#hero-img-studio{
-    max-width: 100vh;
-    height: 45vh;
-    background-image: url("../images/studio.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
+} 
+ 
 /* Our classes-section */
 .classes-mg{
     margin: 0 1% 4%;
@@ -162,6 +153,16 @@ body{
 .opaque-bg{
     background: rgba(255,255,255,0.5);
     margin: 0;
+}
+
+/* The Studio-section */
+#hero-img-studio{
+    max-width: 100vh;
+    height: 45vh;
+    background-image: url("../images/studio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Quotes-section */
