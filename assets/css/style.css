@@ -4,12 +4,12 @@
 /* General classes*/
 html{
    scroll-behavior: smooth;
-   font-size: 62,5%; 
+   font-size: 62.5%; 
 }
 body{
     font-family: "Open Sans", sans-serif;
     color: #262730; 
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 } 
 .banner{
     height: 20rem;
