@@ -100,23 +100,17 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px; 
-}
-
-/* Took this coder from Love Running-class */
-@keyframes hero-zoom {
-    from{
-        transform: scale(0.9);
-    }
-    to{
-        transform: scale(1.0);
-    }
+    margin-bottom: 100px;  
 } 
 .callout{
     background: rgba(55, 63, 81, 0.5);
     color: #ffffff;
 } 
 
+/* Inbetween-section*/
+.fa-arrow-down:hover{
+    transform: scale(1.5);
+}
 /* What is pilates-section */ 
 .hero-img-whatis{
     max-width: 100vh;
