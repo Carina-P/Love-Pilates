@@ -223,6 +223,5 @@ footer {
 @media screen and (max-height: 700px) {
     .section-container{
      min-height: 700px;
-     padding-top: 100px;
  }
 }
