@@ -93,7 +93,7 @@ body{
 }
  
 /* Callout-section with hero-image */
-.hero-image{ 
+#hero-img-callout{ 
     height: 70vh;
     background-image: url("../images/hero-img.png");
     background-color: #ffffff;
@@ -199,7 +199,7 @@ footer {
  /** Media */
 /* Otherwise the picture is cut horizontally in larger media */
 @media screen and (min-width: 992px){
-    .hero-image{
+    #hero-img-callout{
         background-size:contain; 
     }
 }
