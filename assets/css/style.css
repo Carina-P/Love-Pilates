@@ -31,8 +31,7 @@ body{
     margin: auto 25%;
 }
  
-/* Colors */
-footer,
+/* Colors */ 
 .background-color--sunny{
     background-color: #e7b76f;
  }
@@ -75,11 +74,7 @@ footer,
     color: #262730;
 } 
  
-/* Header*/ 
-header{
-    background-color: #e7b76f;
-    font-weight: bold; 
-}
+/* Header*/  
 #logo{
     color: #ffffff;
     border-style: solid;
