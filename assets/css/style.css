@@ -131,7 +131,7 @@ body{
     background-position: center;
 }
 
-/* Classes-section */
+/* Our classes-section */
 .classes-mg{
     margin: 0 1% 4%;
 } 
@@ -188,9 +188,6 @@ body{
 }
 
 /* Footer */
-footer {
-     color: #ffffff;
- }
  .hover-lg:hover{
      transform: scale(1.5);
  }
@@ -204,6 +201,7 @@ footer {
     }
 }
 
+/* Hiding photos that are beside in larger media and thus want to center text */
 @media screen and (max-width: 576px){
     .jumbotron-mg{
         margin: auto;
@@ -220,8 +218,9 @@ footer {
     }
 }
 
+/* When viewport has a small height - let every section take at least the whole viewport-height otherwise it look strange*/
 @media screen and (max-height: 700px) {
     .section-container{
-     min-height: 700px;
+     min-height: 700px; 
  }
 }
