@@ -182,6 +182,9 @@ body{
     width: 60%;
     margin: 10% 20% auto 5%;
 }
+.carousel-indicators{
+    bottom: -5rem;
+}
 .carousel-indicators li{
     background-color: #df2935;
 }
