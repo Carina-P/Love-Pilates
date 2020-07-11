@@ -191,10 +191,7 @@ body{
 .carousel a:hover{
     background: #ffffff;
 }
-.hidden{
-    color: #ffffff;
-}
-
+ 
 /* Footer */
  .hover-lg:hover{
      transform: scale(1.5);
