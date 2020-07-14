@@ -289,7 +289,7 @@ and I did a **validation**, just in case, of the **google fonts** that I import:
 
 Checking these scenarios for mobile, tablet and desktop respectively
 
-1. Navigating from menu in header:
+1. **Navigating from menu** in header:
     1. Check that clicking on logo leads to top of page
     2. Check that clicking on What is Pilates leads to right section.
     3. Check that clicking on Our Classes leads to the section about classes
@@ -297,55 +297,56 @@ Checking these scenarios for mobile, tablet and desktop respectively
     5. Check that when you click on Our Instructors leads to section about the instructors. 
     6. Check that when you click on Quotoes it leads to section with quotes.
     7. Check that when you click on Sign Up it leads to Sign-up-form
-2. Navigate with arrows in bottom of every "viewport-page":
+2. **Navigate with arrows** in bottom of every "viewport-page":
     1. Start in top
     2. For each section ("viewport-page") check that when clicking on arrow in bottom: Next section is showing. 
-3. Links in Callout
+3. **Links in Callout**
     1. Go to beginning of page with callout-section over painted picture
     2. Check that Sign Up-button leads to Sign Up-section
     3. Check that Join class-button show a modal where you can choose date to join class. 
-4. Carousel
+4. **Carousel**
     1. Go to Quotes-part 
     2. Check that the carousel is moving correctly
     3. Check that clicking on the arrow to the right makes the carousel show next content
     4. Check that clicking on the arrow to the left makes the carousel show previous content
     5. Check that in smaller viewports the pictures disappear and in bigger viewports you get both pictures and quotes.
-5. Contact form:
+5. **Contact form**:
     1. Go to the Sign Up-section
     2. Try to submit the empty form and verify that an error message about the required fields appears (name and email not experience).
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid.
-6. Classes:
+6.**Classes**:
     1. Go to the section with classes
     2. Try to click all Read Me-buttons and check that modal with correct information appears
     3. Try to click all Join class-buttons and check that you get a modal where you can choose a date. 
-7. Links in footer  
+7. **Extenral links** in footer  
     1. Go to footer
     2. Check that external links works and appears in new tab
 
 ## Some of the bugs
-1. "Hero-image" was not looking good in different viewport-sizes. I tested in many ways before I decided a solution: 
-    - Bacground-size contain for lager viewports (over 992px) and cover for the rest. In this way the whole girl is always shown.
-2. A stupid bug was that the same text was shown in all modals but for different studio-classes:
+1. **"Hero-image" was not looking good in different viewport-sizes**. I tested in many ways before I decided a solution: 
+    - Bacground-size **contain for lager viewports** (over 992px) and **cover for the rest**. In this way the whole girl is always shown.
+2. A stupid bug was that **the same text** was shown in **all modals** but for different studio-classes:
     - The problem was that I had used the same id (and datatarget) for all. A stupid bug but easy to fix.
-3. Radio button-list in Sign up-form did not look good:
+3. **Radio button-list** in Sign up-form did **not look good**:
     - After a while I realized that I had to put input before label if I wanted text after (instead of before) the little circle.
-4. Carousel: 
-    - I copied code from bootstrap and it took me a while to figure out how to make it look good with "two parts": photo and text. 
-    - I also thought the indicators was interfering with the text so I made them go outside the box with negativ 
-5. The fixed navbar hides content: e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
-    - I gave each section a larger top-margin. 
-    - And I also make navbar collaps, when clicking, in smaller viewports. 
-6. I got a comment from a tester that it is not obvious that the page has more information whe looking at the first part of the page.
-    - A put an icon-link, in the form of an arrow, in the bottom of each "viewport-page", to indicate that more information further down. The link also leads to next "viewport-page"
-7. When doing scenario number 2 I found out that several "arrow"-links in bottom of viewport-pages lead to wrong section. This was due to changing the order
+4. **Carousel**: 
+    - I copied code from bootstrap and it took me a while to **figure out** how to make it look good with **"two parts"**: photo and text. 
+    - I also thought the **indicators was interfering with the text** so I made them go outside the box with negativ bottom-position.
+5. The fixed **navbar hides content**: e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
+    - I gave each section a **larger top-margin**. 
+    - And I also make **navbar collaps**, when clicking, in **smaller viewports**. 
+6. I got a comment from a tester that it is **not obvious that the page has more information** whe looking at the first part of the page.
+    - A put an icon-link, in the form of an **arrow, in the bottom of each "viewport-page"**, to indicate that more information further down. The link also leads to next section of the page.
+7. When doing scenario number 2 I found out that several **"arrow"-links in bottom of viewport-pages lead to wrong section**. This was due to changing the order
 of some sections. 
     - fixed
-8. Doing test in scenario number 4. Found out that the quotes did not fit in the iphone5 viewport. 
-    - Added @media that checked for viewports that was smaller in height than 700 px and in this case let the section have the length of minimum 700 px.
-9. After comments from user I removed the drop-down-list in menu
-10. Commit:
-    - It took me a while to understand what it meant to commit often. But I think I got better and better.
+8. Doing test in scenario number 4. Found out that the **quotes did not fit in the iphone5 viewport**. 
+    - Added **@media** that checked for viewports that was smaller in height than 700 px and in this case let the section have the length of minimum 700 px.
+9. After comments from user I **removed** a **drop-down-list** in menu and all items is instead shown in the navbar.
+10. **Commit**:
+    - It took me a while to understand what it meant to commit often. Especially since I am new to web-development I did a lot of trial and error and doing that I unfortunately
+    forgot to commit. But after explanation from my mentor I think I got better and better and better.
 
 
 ## Deployment
