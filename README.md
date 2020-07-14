@@ -134,7 +134,7 @@ The studio think it is important to reach young clients and thus listen to their
 
 - Not having separate pages made me **change the order of features** to satisfy what the users told me was important.
 
-- In the beginning I thought I would not have time to implement a part about instructors and the studio. But in the end I decided to implement it anyway to make the site more complete.
+- In the beginning I thought I would not have time to implement a part about **instructors and the studio**. But in the end I decided to implement it anyway to make the site more complete.
 I never draw any wireframes since, after talking to users, the design was simple.
 
 ## Design Choices
@@ -215,6 +215,10 @@ And I choosed to use Platinum #e8e8e8, the same color as the form background, in
     * For version control and storing the code
 * [Bootstrap](https://getbootstrap.com/)
     * A helpful HTML, CSS (and JS) library
+* [JQuery](https://jquery.com/)
+    * A JavaScript library
+* [Popper](https://popper.js.org/)
+    * A library to manage poppers in web-applications
 * [Font-Awesome](https://fontawesome.com/icons?d=gallery)
     * From this library I picked the icons
 * [Google fonts](https://fonts.google.com/)
