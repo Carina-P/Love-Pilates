@@ -13,7 +13,7 @@
   * [Site owner's goal:](#site-owner-s-goal-)
   * [Potential features to include:](#potential-features-to-include-)
   * [User Stories:](#user-stories-)
-  * [How the features is prioritized:](#how-the-features-is-prioritized-)
+  * [How the features are prioritized:](#how-the-features-are-prioritized-)
   * [How the features were grouped](#how-the-features-were-grouped)
 - [User requirements and Expectations](#user-requirements-and-expectations)
   * [Requirements](#requirements)
@@ -34,7 +34,7 @@
   * [Markup Validation](#markup-validation)
   * [CSS Validation](#css-validation)
 - [Scenarios](#scenarios)
-- [Some of the bugs](#bugs)
+- [Some of the bugs](#some-of-the-bugs)
 - [Deployment](#deployment)
   * [Running Love Pilates locally](#running-love-pilates-locally)
 - [Credits](#credits)
@@ -282,7 +282,7 @@ I corrected the code for no 1 to 6 and 8 to 9, above but not 7. I commented away
 Comment: I am happy that I used Validation, so these errors and warnings where found.
 
 ### CSS Validation
-Got a **"Congratulations! No errors were found"** but with a **warning**: "Imported styles are not reviewed for direct input or file upload". This warning is for Google fonts 
+Got a **"Congratulations! No errors were found"** but with a **warning**: "Imported styles are not reviewed for direct input or file upload". This warning is for [Google fonts](https://fonts.google.com/) 
 and I did a **validation**, just in case, of the **google fonts** that I import: https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap and received another "Congratulations! No errors were found"
 
 ## Scenarios
