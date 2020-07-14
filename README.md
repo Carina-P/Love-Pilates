@@ -231,7 +231,7 @@ And I choosed to use Platinum #e8e8e8, the same color as the form background, in
 ## Testing
 
 All testing have been conducted **manually**.
-Testing was performed **regularly** in a iterative manner during the development of the site and then **thorough** after all features was in place. 
+Testing was performed **regularly** in a **iterative** manner during the development of the site and then **thorough** after all features was in place. 
 Testing often after a small part of development means that it is easier to find and fix bugs and it is also a way to use experience in coming development.
 
 Description of the iterative manner of developing and testing:
@@ -256,34 +256,34 @@ When all features was implemented the following tests was performed:
 ## Validation with W3S
 ### Markup Validation
 The following messages was received:
-1. Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
+1. **Warning:** The document is not mappable to XML 1.0 due to **two consecutive hyphens** in a comment.
     - Solved by removing extra hyphens in comments
-2. Error: End tag br
-    - corrected </br> to <br>
-3. Error: Attribute arial-label not allowed on element a at this point.
-    - corrected my spelling to aria-label
-4. Error: End tag div seen, but there were open elements.
+2. **Error**: End tag **br**
+    - corrected /br to br
+3. **Error**: Attribute **arial-label not allowed** on element a at this point.
+    - corrected my **spelling** to aria-label
+4. **Error**: End tag div seen, but there were open elements.
     -  corrected when I solved the blockquote-bug below
-5. Error: Unclosed element blockquote.
-    - corrected by putting the missing </blockquote> in place
-6. Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.
+5. **Error**: **Unclosed element blockquote**.
+    - corrected by putting the missing /blockquote in place
+6. **Error**: The value of the for attribute of the label element must be the ID of a non-hidden form control.
     - corrected the attribute
-7. Warning: The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
-    - **I decided not change anything.** So this is perhaps not supported on all browsers. But this is also not a crucial feature. The join-link 
-    is just "fake".
-8. Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
-    - I added an h2 to the "inbetween-sections"
-9. Warning: Possible misuse of aria-label.
-    - Used aria-label for prev-icon and next-icon in carousel in quotes-section. Changed to aria-hidden as in code example in bootstrap.
+7. **Warning**: The **date input type is not supported in all browsers**. Please be sure to test, and consider using a polyfill.
+    - **I decided not change anything.** It works on the browsers I tested and also in the documentation it says that if the date-format is not supported the browser 
+    will present text-format instead. And since the user can put a date in text-format I decided, after talking to users, that this was good enough.
+8. **Warning**: Section **lacks heading**. Consider using h2-h6 elements to add identifying headings to all sections.
+    - I **added h2** to the "inbetween-sections"
+9. **Warning**: Possible **misuse of aria-label**.
+    - Used aria-label for **prev-icon** and **next-icon in carousel** in quotes-section. Changed to **aria-hidden** as in code example in bootstrap.
 
-I corrected the code for no 1 to 6 above but not 7. I took away the code causing warning no 7, did the validation again and got this message:
-"Document checking completed. No errors or warnings to show." 
+I corrected the code for no 1 to 6 and 8 to 9, above but not 7. I commented away the code causing warning no 7, did the validation again and got this message:
+"Document checking completed. No errors or warnings to show." And then I took away the comment.
 
-Comment: It was stupid errors, that I wish I had not done, but I am happy that they where found.
+Comment: I am happy that I used Validation, so these errors and warnings where found.
 
 ### CSS Validation
-Got a "Congratulations! No errors were found" but with a warning: "Imported styles are not reviewed for direct input or file upload".
-I validated: https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap and received another "Congratulations! No errors were found"
+Got a **"Congratulations! No errors were found"** but with a **warning**: "Imported styles are not reviewed for direct input or file upload". This warning is for Google fonts 
+and I did a **validation**, just in case, of the **google fonts** that I import: https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap and received another "Congratulations! No errors were found"
 
 ## Scenarios
 
