@@ -51,15 +51,15 @@ During pandemic the studio cannot have classes in the studio so they started to 
 The goal is to keep regular customers active and lojal to the studio but also to find new clients.
 New client will hopefully become regular clients and in the future also use the studio. And perhaps online classes will be something that continues even after the pandemic.
 ### Target Audience goals:  
-The site users are the studios regular clients but also potential clients. The clients wants to know which classes are offered, when they are offered and a link to join. 
+The site users are the studios regular clients but also potential clients. The clients wants to know what classes are offered, when they are offered and a link to join. 
 A potential client wants to know about pilates, how professional the studio is and if it is a studio that fits this client.
 
 ### Site owner's goal: 
 The studio is interested in attracting and retaining members during unusual times.
 
 ### Potential features to include: 
-- **Quotes and photos** from people who experience how good pilates whit emphasis on workout at home
-- Provide **detail on the classes**, what you need to take part, their schedule and link to actual online class
+- **Quotes and photos** from people who experience how good pilates with emphasis on workout at home
+- Provide **detail on the classes**, their schedule and link to actual online class
 - Provide **information on the instructur** of the centre to show the competence and seriousness.
 - Provide **information about Pilates** and what it is good for.
 - Provide information on **contact details and external resources**.
@@ -75,15 +75,15 @@ All clients:
 - As a user I want a **link to join a online class**. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-join.jpg)
 - As a user I want **quotes and photos**. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-quotes.jpg)
 Especially for potential clients:
-- As a user I want to get a **"feeling for the studio"**, what it offers, the atmosphere and how professionel they are. - Se all implementations.
+- As a user I want to get a **"feeling for the studio"**, what it offers, the atmosphere and how professionel they are. I decided that all the other user stories together fulfills this userstory. So look at all other implementations.
 - As a user I want to **sign up for membership**. [Implementation](https://github.com/Carina-P/Love-Pilates/blob/master/wireframes/implementation-signup.jpg)
 
 ### How the features are prioritized:  
 1. **Sign up for membership** - important way to keep in touch with clients especially during pandemic, so they remember the studio when times are normal again. 
 But only important once for each client. Put the sign up late but a clear link early in the page.
-2. **Link to the digital class** - important for regular clients and probably what they use the site to most of the time. Have a link early in the page.
-3. **The classes schedule** - important for regular clients and probably what they use the site to most of the time 
-4. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who for example wants to test another type of class
+2. **Link to the digital class** - important for regular clients and probably what they use the site to, most of the time. Have a link early in the page.
+3. **The classes schedule** - important for regular clients and probably something they use a lot 
+4. **What classes** are offered and what do you need to take part - important for potential clients and for regular clients who, for example, wants to test another type of class
 5. **What is Pilates** - information for potential clients - **Comment** This is near the top in the flow since it is natural to have this information early
 6. **Information about the studio** - shows it is a professional studio and it is also to remind about and find the studio when everything is back to normal
 7. **Information about the instructors** - to show that this is a professional studio
@@ -93,7 +93,7 @@ But only important once for each client. Put the sign up late but a clear link e
 
 ### How the features were grouped
 - **Header**: Title and navigation
-- **Home**: Photos and citates and short what Pilates is. Problably a button for signing up and another to link for classes
+- **Home**: Photos and quotes and short what Pilates is. Problably a button for signing up and another to link for classes
 - **Sign Up**: Sign up for membership
 - **Classes**: Which classes are offered, when they are offered, link to digital class and information about what you need to take part (e.g space, mat, rubber band)
 - **About**: About the studio and about the instructors
@@ -102,8 +102,8 @@ But only important once for each client. Put the sign up late but a clear link e
 ## User requirements and Expectations
 ### Requirements
 * Navigate the website using **navbar**
-* **Easily sign up for membership** in a contact form: giving name, a correct mailadress and level of experience
-* Being able to **join a online** class with a click
+* **Easily sign up for membership** in a contact form: giving name (compulsory), a correct mailadress (compulsory) and level of experience (if they want/not compulsory)
+* Being able to **join class** with a click
 * See **quotes, with photos,** about what other think about the studio, instructors and Pilates.
 * Being **provided with information**:
     * about **Pilates** 
