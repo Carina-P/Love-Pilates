@@ -394,8 +394,8 @@ Most of the content is copied from or inspired from [Pilates Via](https://pilate
 - I received inspiration for this project from:
     - [Pilates Via](https://pilatesvia.com/se/pilates-i-stockholm/)
     - [Pilates Center](https://www.pilates-center.se/)
-- My mentor Simen Daehlien, who, with lots of energy, enthusiasm and knowledge, inspired me to learn more and do more than I first intended.
+- My mentor [Simen Daehlien](https://slack-redir.net/link?url=https%3A%2F%2Fwww.github.com%2Feventyret), who, with lots of energy, enthusiasm and knowledge, inspired me to learn more and do more than I first intended.
 He also gave me the tip about markdown-toc: making content list into links.
-- [byIlsa](https://github.com/byIlsa) and [Geomint](https://github.com/Geomint) for inspiring ReadMe-files and also inspiring sites.
+- [byIlsa](https://github.com/byIlsa) and [Geomint](https://github.com/Geomint) for inspiring ReadMe-files and also inspiring sites. Especially the **Deployment**-section in Geomints ReadMe-file.
 
 **Site for educational purposes only!**
