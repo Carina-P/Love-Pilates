@@ -125,10 +125,11 @@ I [Balsamiq Wireframes](https://balsamiq.com/) to build rudimentary wireframes f
 I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
 [Wireframes](https://github.com/Carina-P/LovePilates/blob/master/wireframes/wireframes.pdf)
 
-I checked wireframes with users and especially younger preferred all information in one page since it is a moderate amount of features: they use mobile device and do not want to click a lot.
+**Comment:**I checked wireframes with users and especially younger preferred all information in one page since it is a moderate amount of features: they use mobile device and do not want to click a lot.
+
 One user suggested to use a carousel for quotes - takes less space. I tried that and thougt it was appealing.
 
-This change also made me change the order of features (sections) to satisfy what the user told me.
+This change also made me change the order of features (sections) to satisfy what the users told me.
 
 ## Design Choices
 I looked around different pilates sites to find inspiration and desided that I wanted a hero-image to be a drawn picture - for me it felt more modern. I found a picture that I thought was inspiring 
@@ -141,7 +142,7 @@ Comment: After testing and talking to users I decided to use more white than gre
 I have choosen **Open Sans** that I think is a modern, friendly, easy to read font.
 
 ### Icons
-**Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are self explanatory.
+**Icons** used where provided by [Font Awesome](https://fontawesome.com/), used in **moderation** and are **self explanatory**.
 
 ### Colours
 * For text: Charchool #373f51
@@ -153,12 +154,12 @@ I have choosen **Open Sans** that I think is a modern, friendly, easy to read fo
 
 <img src="/wireframes/colors-pilates.png" width="75%">
 
-After testing I decided that I wanted more color and did not use gray backgrounds as much as I planned. For good contrast I choosed to use the darker color for all text on lighter background. 
+After testing and talking to users I decided to not use gray backgrounds as much as I planned. For good contrast I choosed to use the darker color for all text on lighter background. 
 I still use above colors but it looks like this instead:
 * Fonts for good contrast:
     * Lighter backgrounds: Raisin black #262730
     * Darker backgrounds: White: #ffffff
-* Backgrounds: Sunray #e7b76f, Cultured #eff1f0 and  Charchool #373f51
+* Backgrounds: White #ffffff, Sunray #e7b76f, Cultured #eff1f0 and  Charchool #373f51
 * All buttons: Rose Madder #DF2935 and white #ffffff
 
 
