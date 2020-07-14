@@ -125,11 +125,17 @@ I [Balsamiq Wireframes](https://balsamiq.com/) to build rudimentary wireframes f
 I have made wireframes for three pages and for each page I have frames for each of Desktop/Tablet/Mobile.
 [Wireframes](https://github.com/Carina-P/LovePilates/blob/master/wireframes/wireframes.pdf)
 
-**Comment:**I checked wireframes with users and especially younger preferred all information in one page since it is a moderate amount of features: they use mobile device and do not want to click a lot.
+**Comment to changes of initial wireframes:**
 
-One user suggested to use a carousel for quotes - takes less space. I tried that and thougt it was appealing.
+- I checked wireframes with users and especially younger preferred **all information in one page** since it is a moderate amount of features and they use mobile device and do not want to click a lot.
+The studio think it is important to reach young clients and thus listen to their advices. I do not think older user will suffer from this change.
 
-This change also made me change the order of features (sections) to satisfy what the users told me.
+- One user suggested to use a **carousel for quotes** - takes less space. Tried that and users thought it was more appealing and gave up the initial wireframe-layout for this.
+
+- Not having separate pages made me **change the order of features** to satisfy what the users told me was important.
+
+- In the beginning I thought I would not have time to implement a part about instructors and the studio. But in the end I decided to implement it anyway to make the site more complete.
+I never draw any wireframes since, after talking to users, the design was simple.
 
 ## Design Choices
 I looked around different pilates sites to find inspiration and desided that I wanted a hero-image to be a drawn picture - for me it felt more modern. I found a picture that I thought was inspiring 
@@ -155,44 +161,45 @@ I have choosen **Open Sans** that I think is a modern, friendly, easy to read fo
 <img src="/wireframes/colors-pilates.png" width="75%">
 
 After testing and talking to users I decided to not use gray backgrounds as much as I planned. For good contrast I choosed to use the darker color for all text on lighter background. 
-I still use above colors but it looks like this instead:
-* Fonts for good contrast:
-    * Lighter backgrounds: Raisin black #262730
-    * Darker backgrounds: White: #ffffff
-* Backgrounds: White #ffffff, Sunray #e7b76f, Cultured #eff1f0 and  Charchool #373f51
-* All buttons: Rose Madder #DF2935 and white #ffffff
+And I choosed to use Platinum #e8e8e8, the same color as the form background, instead of Cultured #eff1f0. The rest of the colors I use but it looks like this instead:
+* **Text** for good contrast:
+    * Lighter backgrounds: **Raisin black** #262730
+    * Darker backgrounds: **White**: #ffffff
+* **Backgrounds**: **White** #ffffff, **Sunray** #e7b76f, **Platinum** #e8e8e8 and **Charchool** #373f51
+* All **buttons**: **Rose Madder** #DF2935 and **White** #ffffff
 
 
 
 ## Features
 ### Existing Features
 - **Header** fixed at the top of the viewport, with:
-    - **logo** and    
-    - **navbar** including To top, About us (with What is Pilates, The Studio, Our Instructors and Quotes), Our Clases an Sign Up
+    - **logo**: with link to top of page    
+    - **navbar**: What is Pilates, Our Classes, The Studio, Our Instructors, Quotes and Sign Up.
 - **Callout**-section to caught attention:
     - Inspirational *hero image*
     - Link to **Sign up**
     - Link to **join class**
-- **What is Pilates?**-section
-- **The studio**-section with information about the studio
-- **Our Instructors**- section with photos and information about instructors
-- **Quotes**-section with information what others think about the studio and Pilates, with:
-    - **Carousel** with photo and quote
+- **What is Pilates?**-section 
 - **Classes**-section, with:
     - **Photos** and **information** about classes
     - Every class has:
         - Read More-**button** with text about the class given in **modal**.
-        - Join class-**button** with **popover** informating that it is not implemented.
-- **Sign-up**-section, with:
-    - **inputform**: **validation** on name and email. This is not a complete feature since nothing happens when you press Sign Up.
+        - Join class-**button** with modal where user can choose date to join.
+- **The studio**-section with information about the studio
+- **Our Instructors**- section with photos and information about instructors
+- **Quotes**-section with information what others think about the studio and Pilates, with:
+    - **Carousel** with photo and quote
+- **Sign-up**-section, with: 
+    - **inputform**: **validation** on name and email. Experience is not validated since the studio think this is information that is voluntary to give.
+    This is not a complete feature since nothing happens when you press Send.
 - **Footer**, with:
     - **Address** to the studio
     - **Contact** information with **icons**
     - **External links** in the form of **icons**
  
 ### Features Left to Implement
-- The sign up-form does not actually send information anywhere
-- Join Classes is a "fake" link
+- The **sign up-form** does not actually send information anywhere
+- **Join** Class is also does not lead to a class.
 
 ## Technologies Used
 ### Languages
