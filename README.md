@@ -290,59 +290,49 @@ and I did a **validation**, just in case, of the **google fonts** that I import:
 Checking these scenarios for mobile, tablet and desktop respectively
 
 1. Navigating from menu in header:
-    1. Check that clicking on logo leads to homepage
-    2. Check that clicking on To top goes to top of page
-    3. Check that clicking on Sign Up leads to Sign up-form
-    4. Check that clicking on Classes leads to the section about classes
-    5. Check that when you click on each choice in drop down-list of About Us you are linked to respectively:
-        - What is Pilates-section
-        - The Studio-section
-        - Our classes- section
-        - Quotes-selection
+    1. Check that clicking on logo leads to top of page
+    2. Check that clicking on What is Pilates leads to right section.
+    3. Check that clicking on Our Classes leads to the section about classes
+    4. Check that clicking on The Studio leads to the section about the Studio
+    5. Check that when you click on Our Instructors leads to section about the instructors. 
+    6. Check that when you click on Quotoes it leads to section with quotes.
+    7. Check that when you click on Sign Up it leads to Sign-up-form
 2. Navigate with arrows in bottom of every "viewport-page":
     1. Start in top
     2. For each section ("viewport-page") check that when clicking on arrow in bottom: Next section is showing. 
 3. Links in Callout
-    1. At beginning of page callout-section over painted picture
+    1. Go to beginning of page with callout-section over painted picture
     2. Check that Sign Up-button leads to Sign Up-section
-    3. Check that Join class-button show a modal where you can choose date to join class.
-
+    3. Check that Join class-button show a modal where you can choose date to join class. 
 4. Carousel
     1. Go to Quotes-part 
     2. Check that the carousel is moving correctly
     3. Check that clicking on the arrow to the right makes the carousel show next content
     4. Check that clicking on the arrow to the left makes the carousel show previous content
-
-5. Read more about Pilates
-    1. Go to section "What is Pilates?"
-    2. Check that the button Read More goes to external wikipedia-page about Pilates. 
-    3. Check that the page is opened in a new tab.
-
-6. Contact form:
+    5. Check that in smaller viewports the pictures disappear and in bigger viewports you get both pictures and quotes.
+5. Contact form:
     1. Go to the Sign Up-section
-    2. Try to submit the empty form and verify that an error message about the required fields appears.
+    2. Try to submit the empty form and verify that an error message about the required fields appears (name and email not experience).
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-7. Classes:
+    4. Try to submit the form with all inputs valid.
+6. Classes:
     1. Go to the section with classes
     2. Try to click all Read Me-buttons and check that modal with correct information appears
-    3. Try to click all Join class-buttons and check that you get a modal where you can choose a date.
-
-8. Links in footer  
+    3. Try to click all Join class-buttons and check that you get a modal where you can choose a date. 
+7. Links in footer  
     1. Go to footer
     2. Check that external links works and appears in new tab
 
 ## Some of the bugs
 1. "Hero-image" was not looking good in different viewport-sizes. I tested in many ways before I decided a solution: 
     - Bacground-size contain for lager viewports (over 992px) and cover for the rest. In this way the whole girl is always shown.
-2. A stupid bug was that the same text was shown in all Modals but for different studio-classes:
-    - The problem was that I had used the same id (and datatarget) for all. Also a stupid bug but easy to fix.
+2. A stupid bug was that the same text was shown in all modals but for different studio-classes:
+    - The problem was that I had used the same id (and datatarget) for all. A stupid bug but easy to fix.
 3. Radio button-list in Sign up-form did not look good:
     - After a while I realized that I had to put input before label if I wanted text after (instead of before) the little circle.
 4. Carousel: 
     - I copied code from bootstrap and it took me a while to figure out how to make it look good with "two parts": photo and text. 
-    - I also thought the indicators was interfering with the text. The only, and not a very good, solution that I found was to include a hidden text.
+    - I also thought the indicators was interfering with the text so I made them go outside the box with negativ 
 5. The fixed navbar hides content: e.g. clicking on Sign Up leads to Sign Up section but the headline of Sign up is hidden behind the navbar (header):
     - I gave each section a larger top-margin. 
     - And I also make navbar collaps, when clicking, in smaller viewports. 
